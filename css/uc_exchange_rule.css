@@ -1,0 +1,25 @@
+/*兑换规则*/
+#uc_exchange_rule .content{
+    padding: 0.8rem;
+    background: #fff;
+}
+#uc_exchange_rule h6{
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+#uc_exchange_rule .time{
+    font-size: 0.75rem;
+}
+#uc_exchange_rule  .titles,.content_detail{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+#uc_exchange_rule .content_detail{
+    text-align: justify;
+}
+#uc_exchange_rule  .titles{
+    margin-top: 1.4rem;
+}
+#uc_exchange_rule  .first_title{
+    margin-top: 0.7em;
+}

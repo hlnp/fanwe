@@ -1,0 +1,72 @@
+/*交易详情*/
+.holds{
+	height: 7.4rem;
+	background: url(../images/holds.jpg) no-repeat center center;
+	background-size: cover;
+	color: #3db4cc;
+	text-align: center;
+	margin-bottom: 0.5rem;
+}
+.holds h5{
+	color: #3db4cc;
+	font-size: 3.1rem;
+	line-height: 3.5rem;
+	margin-top: 1.1rem;
+}
+.this_period{
+	font-size: 0.65rem;
+}
+.come_on{
+	font-size: 0.85rem;
+}
+.trade_detail_list li{
+	height:2.75rem;
+	line-height: 2.75rem;
+	font-size: 0.75rem;
+	color: #fff;
+	background: #75d9aa;
+	border-radius: 0.4rem;
+	margin-bottom: 0.3rem;
+	padding: 0 0.3rem;
+	overflow:hidden;
+}
+.trade_detail_list li:nth-child(1){
+	background: #189e71;
+}
+.trade_detail_list li:nth-child(2){
+	background: #3cb287;
+}
+.trade_detail_list li:nth-child(3){
+	background: #5dc49a;
+}
+.userName{
+	width: 5.5rem;
+}
+.avatar{
+	width: 1.8rem;
+	height:1.8rem;
+	border-radius: 50%;
+	margin-top: 0.45rem;
+	margin-right: 0.25rem;
+	border:1px solid #fff;
+	background:#f9f9f9;
+	overflow: hidden;
+	
+}
+.avatar img{
+	width: 100%;
+	height: 100%;
+}
+.buy_sheep_num{
+	width:15%;
+	height: 100%;
+	padding-left: 1.25rem;
+	background: url(../images/iconlist_04.png) no-repeat left 86%;
+	background-size: 2.5rem;
+}
+
+.trade_detail_list li:nth-child(1) .use_nam{
+	padding-top:0.45rem;
+	background:url(../images/king.png) no-repeat left 0.5rem;
+	background-size:1rem;
+}

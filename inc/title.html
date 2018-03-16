@@ -1,0 +1,52 @@
+{if $smarty.request.app neq '1'}
+<header class="bar bar-nav">
+	{if $hide_back neq 1}
+	<a class="button button-link button-nav pull-left" onclick="RouterBack('{$back_url}','{$back_page}','{$back_epage}');" data-transition='slide-out'>
+		<span class="icon"></span>
+		<span class="fanhui">返回</span>
+	</a>
+	{/if}
+	<h1 class="title pull-left">{$data.program_title}</h1>
+</header>
+{if $hide_footer neq 1}
+<nav class="bar bar-tab">
+	<a class="pasture tab-item {if $data.act eq 'init'}active{/if}" href="#" onclick="RouterURL('{wap_url a="index" r="init"}','#init');">
+		<i class="icon"></i>
+		<span class="tab-label">牧场</span>
+	</a>
+	{if $is_login eq 0}
+    <a class="shopping tab-item {if $data.act eq 'login'}active{/if}" href="#" onclick="RouterURL('{wap_url a="index" r="login"}','#login'{if $is_weixin},1{/if});">
+        <i class="icon"></i>
+        <span class="tab-label">超市</span>
+    </a>
+    {else}
+	<a class="shopping tab-item {if $data.act eq 'shopping_mall'}active{/if}" href="#" onclick="RouterURL('{wap_url a="index" r="shopping_mall"}','#shopping_mall')">
+    <i class="icon"></i>
+    <span class="tab-label">超市</span>
+    </a>
+    {/if}
+	  {if $is_login eq 0}
+    <a class="found tab-item {if $data.act eq 'login'}active{/if}" href="#" onclick="RouterURL('{wap_url a="index" r="login"}','#login'{if $is_weixin},1{/if});">
+        <i class="icon"></i>
+        <span class="tab-label">发现</span>
+    </a>
+    {else}
+	<a class="found tab-item {if $data.act eq 'found'}active{/if}" href="#" onclick="RouterURL('{wap_url a="index" r="found"}','#found')">
+    <i class="icon"></i>
+    <span class="tab-label">发现</span>
+    </a>
+    {/if}
+	{if $is_login eq 0}
+	<a class="my tab-item {if $data.act eq 'login'}active{/if}" href="#" onclick="RouterURL('{wap_url a="index" r="login"}','#login'{if $is_weixin},1{/if});">
+		<i class="icon"></i>
+		<span class="tab-label">我的</span>
+	</a>
+	{else}
+	<a class="my tab-item {if $data.act eq 'uc_center'}active{/if}" href="#" onclick="RouterURL('{wap_url a="index" r="uc_center"}','#uc_center');">
+		<i class="icon"></i>
+		<span class="tab-label">我的</span>
+	</a>
+	{/if}
+</nav>
+{/if}
+{/if}

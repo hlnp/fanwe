@@ -1,0 +1,16 @@
+/*修改登陆密码*/
+.modify_login{
+	padding: 0 1rem;
+}
+.modify_login li:last-child input{
+	border-bottom: 0 ;
+}
+.confirm{
+	width: 15rem!important;
+	bottom: 12rem!important;
+	margin-left: -7.5rem!important;
+	text-align: center;
+}
+.not_auth{
+	color: #a9a9a9;
+}

@@ -1,0 +1,29 @@
+/*账户明细*/
+.flowing-water .remarks{
+    padding-left: 0.75rem;
+}
+.fw-detailed li{
+	box-sizing: border-box;
+    height: 3.75rem;
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid #ededed;
+    color: #a9a9a9;
+    font-size: 0.75rem;
+	background: #fff;
+}
+.fw-detailed .fw_right{
+    text-align: right;
+}
+.bold{
+    font-weight: bold;
+}
+.remarks-top{
+	width: 100%;
+    height: 0.5rem;
+    line-height: 1rem;
+    padding-left: 0.41rem;
+    border-bottom: 1px solid #ededed;
+}
+#uc_account_log .chtx{
+	font-size:1.1rem;
+}

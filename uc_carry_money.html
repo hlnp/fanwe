@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>提现申请</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0,minimum-scale=0.5">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" type="text/css" href="./css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/uc_carry_money.css"/>
+</head>	
+<body>	
+<div class="page" id='uc_carry_money'>
+	<header class="bar bar-nav">
+	    <a href="uc_center.html" class="button  pull-left" >
+	        <span class="icon"></span>
+	        <span class="fanhui">返回</span>
+	    </a>
+	    <h1 class="title pull-left">提现</h1>
+	    <a href="uc_carry_money_log.html" class="button fr records">提现记录</a>
+	</header>
+	<div class="content bgCo">
+	<!-- 这里是页面内容区 -->
+	<!--申请提现-->
+	<div class="appli_for_with">
+		<div class="checkin white fillet clearfix">
+			<div class="bank_icon">
+				<img src="./images/1.jpg" alt="" />
+			</div>
+			<div class="detail fl">
+				<h6>中国工商银行</h6>
+				<span>尾号3775储蓄卡</span>
+			</div>
+		</div>
+		<div class="modular fillet white ">
+			<p class="sm_title">提现金额</p>
+			<div class="infos clearfix">
+				<div class="rmb fl">￥</div>
+				<input class="fl" id="Jcarry_amount" type="number" placeholder="请输入提现金额"/>
+			</div>
+			<p class="m_co info_num">
+				<span class="name">可&nbsp;&nbsp;提&nbsp;&nbsp;现：￥</span>
+				<input id="Jcarry_totalAmount" type="hidden" value="500">
+				<span>500</span>
+			</p>
+			<p class="a9 info_num">
+				<span class="name">账户余额：￥</span>
+				<input id="Jcarry_accountBalance" type="hidden" value="500">
+				<span>500</span>
+			</p>
+		</div>
+		<p class="purchase_tip a9">
+			注：您的余额还可购买<span class="m_co">3</span>只常规羊。</p>
+		<div class="w_b but_box_parent padding">
+			<div class="w_b_f_1 but_box">
+				<button class="big-button press this_expressive" id="expressive" data-popup=".popup-about">朕要提现</button>
+			</div>
+		</div>
+	</div>
+	<!-- 支付密码-->
+		<div class="" id="shopping_exchange" style="display: none">
+			<div class="closeList"><span class="close-popup">关闭</span></div>
+			<div class="bgCo">
+				<p class="input_tip">请输入您的交易密码：</p>
+				<input id="trade_pwd" type="password" placeholder="请输入密码" />
+				<div class="w_b but_box_parent padding">
+					<div class="w_b_f_1 but_box">
+						<button id="submit_pwd" class="but_this press">确定</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

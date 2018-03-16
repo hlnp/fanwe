@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>提现</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0,minimum-scale=0.5">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" type="text/css" href="./css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/uc_bank.css"/>
+</head>	
+<body>
+<div class="page" id='uc_bank'>
+	<!-- 银行卡-->
+	<header class="bar bar-nav">
+	    <a href="uc_center.html" class="button  pull-left" >
+	        <span class="icon"></span>
+	        <span class="fanhui">返回</span>
+	    </a>
+	    <h1 class="title pull-left">提现</h1>
+	    <a href="uc_carry_money_log.html" class="button fr records">提现记录</a>
+	</header>
+	<div class="content bgCo">
+	<!-- 这里是页面内容区 -->
+		<!--提现银行列表-->
+		<div id="con_one_1" class="uc_incharge"><!--普通提现-->
+			<div class="bank_queue">
+				<p class="delectTip a9">点击银行卡即可申请提现（长按可删除）</p>
+				<ul>
+					<li class="checkin white fillet bank-box-216">
+						<!--<input type="hidden" value="{$item.id}"/>-->
+						<div class="bank_icon">
+							<img src="./images/1.jpg" alt="中国工商银行" />
+						</div>
+						<a href="uc_carry_money.html">
+							<div class="detail">
+								<h6>中国工商银行</h6>
+								<span>尾号3775储蓄卡</span>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<!--，没有进行身份认证-->
+				<!--<p class="auTip a9">您只有身份认证（请到“设置”中进行认证）后才可添加银行卡，提现哦。若您已认证，请直接添加银行卡∩_∩。</p>-->
+				<!--没有银行卡记录-->
+				<!--<div class="no_record"></div>-->
+			</div>
+			<div>
+				<button id="add" class="big-button press"><a href="uc_add_bank.html">添加银行卡</a></button>
+				<!--超过3张-->
+				<!--<button class="big-button press unclicked">添加银行卡</button>-->
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

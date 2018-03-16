@@ -1,0 +1,70 @@
+/*我的红包*/
+#uc_voucher{
+    background-color: #f0f0f3;
+}
+.voucher_block{
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    height: 4.5rem;
+    border: 1px solid #ededed;
+    border-radius: 0.4rem;
+    background-color: #fff;
+    padding:1.2rem 0rem 0 0.75rem ;
+    position:relative;
+}
+.voucher_block .redPackets{
+    width: 1.85rem;
+    height: 2.05rem;
+    margin-right: 0.5rem;
+}
+.voucher_block .redPackets_0{
+    background: url("../images/red/hongbao.jpg") no-repeat;
+    background-size: cover;
+}
+.voucher_block .redPackets_1{
+    background: url("../images/red/huibao.jpg") no-repeat;
+    background-size: cover;
+}
+.voucher_block .redPackets_2{
+    background: url("../images/red/huibao.jpg") no-repeat;
+    background-size: cover;
+}
+.voucher_block .ecv_name{
+    font-size:1rem;
+    line-height:1.05rem;
+}
+.voucher_block .ecv_name_1{
+    color:#3db4cc;
+}
+.voucher_block .ecv_name_2{
+    color:#a9a9a9;
+}
+.voucher_block .exlimit{
+    clear:both;
+    font-size:0.6rem;
+    color:#a9a9a9;
+    line-height:1.3rem;
+}
+.voucher_block .price-box{
+    width:4.5rem;
+    text-align:left;
+}
+.voucher_block .price{
+    font-size:0.9rem;
+    line-height: 1.2rem;
+}
+.voucher_block .price_1{
+    color: #1a1a1f;
+}
+.voucher_block .price_2{
+    color: #a9a9a9;
+}
+.voucher_block .money{
+    font-size: 1.5rem;
+    line-height: 0.8rem;
+}
+.voucher_block .surplus{
+    font-size: 0.6rem;
+    color: #a9a9a9;
+}

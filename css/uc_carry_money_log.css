@@ -1,0 +1,87 @@
+/*提现记录*/
+#uc_carry_money_log{
+    background: #fff;
+}
+.remarks{
+    width: 100%;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    padding-left: 0.41rem;
+	border-bottom:1px solid #ededed;
+}
+.remarks span{
+    margin-right: 0.5rem;
+}
+
+.state{
+	font-size:0.75rem;
+    padding-top: 2rem;
+}
+.contract_list .state{
+	padding-top:0;
+}
+.trans_detail {
+    padding:0.5rem 0;
+}
+#uc_incharge_log .trans_detail{
+    padding: 0.5rem 0;
+}
+.trans_detail  .bank_icon{
+    width: 2.5rem;
+    height: 2.6rem;
+}
+.trans_detail .amount{
+    text-align: right;
+}
+.trans_detail .amount .amount-1,.trans_detail .amount .amount-2{
+    font-size: 0.8rem;
+}
+.trans_detail .amount .amount-1{
+    color: #fc7272;
+}
+.trans_detail .amount .amount-2{
+    color: #3db4cc;
+}
+
+.chtx{
+    font-size: 0.85rem;
+}
+.bankName{
+    padding-right: 0.75rem;
+}
+/*提现记录*/
+#uc_carry_money_log .trans_detail{
+    box-sizing: border-box;
+    height: 7.5rem;
+    padding:0.5rem 0;
+    font-size: 0.75rem;
+}
+#uc_carry_money_log .revoke .Revocation_but{
+    display: block;
+    width: 5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    background: #5ac3d8;
+    border-radius: 0.75rem;
+    text-align: center;
+    font-size: 0.7rem;
+	margin-top:0.2rem;
+}
+.revoke .Revocation_but a{
+    color: #fff;
+}
+#uc_carry_money_log .details_con div:last-child{
+    height: 1.5rem;
+    line-height: 1.5rem;
+    margin-top: 1.4rem;
+}
+
+.uc_add_bank .dl{
+	padding:0.5rem 0 0.5rem 4.25rem;
+}
+.uc_add_bank .dl:last-child{
+	padding:0 0 0 4.25rem;
+}
+#uc_add_bank .bank_list .this_bank{
+	line-height:2rem;
+}

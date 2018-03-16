@@ -1,0 +1,105 @@
+</div>
+</div>
+<!--{include file="./inc/left.html"}-->
+{if $signPackage}
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+  wx.config({
+      debug: false,
+      appId: '{$signPackage.appId}',
+      timestamp: {$signPackage.timestamp},
+      nonceStr: '{$signPackage.nonceStr}',
+      signature: '{$signPackage.signature}',
+      jsApiList: [
+        'onMenuShareTimeline',
+        'onMenuShareAppMessage'
+      ]
+  });
+    var shareData = {
+		title: '财富牧场',
+		desc: '我在财富牧场养了只羊，联养回报15%-18%，还可以兑换羊肉。',
+		link: '{$wx_url}',
+	   	imgUrl: './images/wx_share.png',
+	}  
+    var shareData2 = {
+		title: '我在财富牧场养了只羊，联养回报15%-18%，还可以兑换羊肉。',
+		link: '{$wx_url}',
+	   	imgUrl: './images/wx_share.png',
+	}
+    wx.ready(function () {
+		wx.onMenuShareTimeline(shareData2);
+		wx.onMenuShareAppMessage(shareData);
+	});
+</script>
+ {/if}
+<?php
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/suimobile/sm.min.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/suimobile/sm-extend.min.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/script.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/licai.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/deals.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/transfer.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/article.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/licai_uc_published_lc.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/uc_goods_order.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/uc_voucher.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/integral_mall.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/uc_address.js";
+	//$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/uc_carry_money_log.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/uc_account_log.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/my_integral.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/licai_uc_buyed_lc.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/licai_uc_redeem_lc.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/licai_uc_record_lc.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/licai_uc_expire_lc.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/uc_borrowed.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/uc_interestrate.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/uc_bank.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/uc_invest.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/uc_mature.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/uc_incharge.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/uc_incharge_log.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/public.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/uc_setting.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/Area.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/merchandise_order.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/my_commission.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/had_commission.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/my_goodfriends.js";
+	//$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/uc_historical_record.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/uc_mycontract.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/mobileBUGFix.mini.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/Plugin_unit/jscharts_cr.js";
+	$this->_var['common_js'][] = $this->_var['TMPL_REAL']."/js/reset_phone_number.js";
+
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/suimobile/sm.min.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/script.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/licai.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/deals.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/article.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/licai_uc_published_lc.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/uc_goods_order.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/uc_voucher.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/integral_mall.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/uc_address.js";
+	//$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/uc_carry_money_log.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/uc_account_log.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/licai_uc_buyed_lc.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/licai_uc_redeem_lc.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/licai_uc_record_lc.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/licai_uc_expire_lc.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/uc_borrowed.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/uc_interestrate.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/uc_transfer.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/uc_invest.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/uc_incharge.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/public.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/Area.js";
+	//$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/uc_historical_record.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/mobileBUGFix.mini.js";
+	$this->_var['c_common_js'][] = $this->_var['TMPL_REAL']."/js/uc_setting.js";
+
+?>
+<script type="text/javascript" src="{function name="parse_wap_script" v="$common_js" c="$c_common_js"}"></script>
+</body>
+</html>

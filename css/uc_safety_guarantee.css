@@ -1,0 +1,97 @@
+
+/*安全保障*/
+#uc_safety_guarantee{
+    background: #fff;
+}
+.enounce{
+    width:100%;
+    text-align: center;
+    font-size: 1.05rem;
+    color: #4cc2ea;
+    margin: 3.1rem auto 2rem auto;
+}
+.safe01{
+    width: 100%;
+    height: 6.9rem;
+    background: url(../images/safety/safe01.jpg) no-repeat center center;
+    background-size:100%;
+}
+.safe_detail{
+    width: 100%;
+    height: 17rem;
+    background: #4cc2ea;
+    color: #fff;
+    text-align: center;
+}
+.safe_title_01{
+    font-size:1rem;
+    padding: 2rem 0 0.7rem 0;
+}
+.safe_con{
+    font-size: 0.75rem;
+    line-height: 1rem;
+    text-align: justify;
+    padding: 0 1.65rem;
+    letter-spacing: 1px;
+    text-indent: 1.4rem;
+}
+.detail_middle{
+    width: 6.2rem;
+    height: 6.75rem;
+    margin:0.25rem auto 0 auto;
+    background:url(../images/safety/safe02.png) no-repeat center center;
+    background-size: 100%;
+}
+.detail_bottom{
+    width: 100%;
+    height: 2rem;
+    margin-top: -2px;
+    background: url(../images/safety/safe03.png) no-repeat center center;
+    background-size: 100%;
+}
+.safe03{
+    width: 100%;
+    height: 2rem;
+    background: url(../images/safety/cir.jpg) no-repeat center center;
+    background-size: 0.5rem;
+}
+.safe04{
+    width: 100%;
+    height: 14.5rem;
+    color: #4cc2ea;
+    text-align: center;
+    background: url(../images/safety/safe04.jpg) no-repeat center bottom;
+    background-size: 7.4rem;
+}
+.safe04 .safe_title_01,.safe05 .safe_title_01{
+    padding: 1.25rem 0 0.7rem 0;
+}
+.safe04 .safe_con{
+    padding:0 2.25rem;
+}
+.safe05{
+    margin-top: 1rem;
+}
+.safe05 .safe_detail{
+    height: 14.6rem;
+}
+.safe05 .safe_con{
+    padding: 0 1.9rem 0 1.9rem;
+}
+.safe05 .detail_middle{
+    width: 7.05rem;
+    height: 5.15rem;
+    margin:0.5rem auto 0 auto;
+    background:url(../images/safety/safe05.png) no-repeat center center;
+    background-size: 100%;
+}
+.safe06{
+    height: 6rem;
+    line-height: 6rem;
+    font-size: 1.05rem;
+    text-align: center;
+    color: #47a9d0;
+    letter-spacing: 2px;
+    background: url(../images/safety/safe06.jpg) no-repeat center center;
+    background-size: 17rem;
+}

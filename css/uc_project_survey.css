@@ -1,0 +1,128 @@
+/*项目概况*/
+#uc_project_survey .logo{
+	background: url(../images/logo_01.png) no-repeat center center;
+}
+.brief_introduction{
+	font-size: 0.9rem;
+	line-height: 1.3rem;
+	margin-top: 1.5rem;
+}
+.brief_introduction p{
+	text-align: justify;
+	text-indent: 1.8rem;
+}
+.illustration01{
+	width: 100%;
+	height: 6rem;
+	background: url(../images/project.jpg) no-repeat center center;
+	background-size: 100%;
+	margin-top: 0.7rem;
+}
+.cooper_agree{
+	width: 11.8rem;
+	height: 16.25rem;
+	margin:0.6rem auto 0 auto;
+	background: url(../images/coo.jpg) no-repeat center center;
+	background-size: 100%;
+}
+.brief_introduction ul{
+	margin-top: 1rem;
+}
+.brief_introduction ul li{
+	width: 100%;
+	height: 11.1rem;
+	border: 1px solid #ededed;
+	margin-bottom: 0.5rem;
+}
+.brief_introduction ul li img{
+	width: 100%;
+	height: 100%;
+}
+#uc_learn_deal_invest .mainblok,#deal .mainblok{
+	margin-top: -0.25rem;
+}
+.receive{
+	width: 100%;
+	height: 3rem;
+	padding:0.4rem 1rem 0.4rem 0.9rem;
+	margin-top: 0.5rem;
+}
+.receiveLeft{
+	font-size: 0.75rem;
+}
+#receive_returns{
+	width: 5rem;
+	height: 1.75rem;
+	line-height: 1.75rem;
+	font-size: 0.8rem;
+	border-radius: 1rem;
+	color: #fff;
+	background: #d9d9d9;
+	text-align: center;
+	margin-top: 0.225rem;
+}
+
+.taste_tip{
+	font-size: 0.75rem;
+	line-height: 1.5rem;
+	padding-left: 0.7rem;
+}
+#uc_learn_deal_invest .exch_bottom li:nth-child(2) span:first-child{
+	padding-left: 0;
+}
+#uc_learn_bid #submitt{
+	width: 100%;
+	height: 2.25rem;
+	line-height: 2.25rem;
+	border-radius: 1.125rem;
+	text-align: center;
+	background: linear-gradient(to right,#3db4cc,#6fd6ea);
+	color: #fff;
+	font-size: 1rem;
+	margin-top: 1.5rem;
+}
+.sum{
+	height: 7.5rem;
+	text-align: center;
+}
+.sum .tr_am{
+	padding-top: 0.5rem;
+}
+.sum .a1{
+	font-size: 2.25rem;
+}
+.sum .explain{
+	height: 1.75rem;
+	line-height: 1.75rem;
+	font-size: 0.7rem;
+	border-top: 1px solid #ededed;
+	margin: 0.5rem 1rem 0 1rem;
+}
+#uc_learn_bid .input_tip{
+	font-size: 0.9rem;
+	margin-top: 0.6rem;
+	line-height: 2rem;
+}
+#bid_paypassword{
+	width: 100%;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	font-size: 0.9rem;
+	padding-left: 0.75rem;
+
+}
+#uc_learn_bid .tip_word{
+	line-height: 1.5rem;
+	font-size: 0.65rem;
+}
+.shopTip{
+	width:100%;
+	line-height:2.5rem;
+	text-align:center;
+}
+#uc_invest .big-button{
+	position: fixed;
+    left: 50%;
+    bottom: 3.75rem;
+    margin-left: -7.5rem;
+}

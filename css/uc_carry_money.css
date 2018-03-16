@@ -1,0 +1,113 @@
+/*确认提现*/
+.applica_top{
+    height: 6rem;
+    color: #fff;
+    background: linear-gradient(to right,#3db4cc,#6fd6ea);
+    border-radius:0.4rem ;
+	padding-top:0.75rem;
+}
+.applica_top h2{
+	color:#fff;
+	font-size:0.9rem;
+	padding-bottom:0.4rem;
+	
+}
+.applica_top .applica_money{
+	text-align:center;
+	font-size:1.25rem;
+}
+.money_small{
+    font-size: 1rem;
+}
+.applica_top .chin{
+    font-size: 0.65rem;
+    line-height: 1rem;
+    text-align: center;
+}
+.con_box{
+    width: 50%;
+    padding: 0.3rem 0;
+    text-align: center;
+    font-size: 0.75rem;
+}
+.applica_bottom{
+    margin-top: 0.5rem;
+    padding: 0 1rem;
+}
+.applica_bottom li{
+    box-sizing: border-box;
+    height: 2rem;
+    padding-left: 3.7rem;
+    position:relative;
+    font-size: 0.85rem;
+    border-bottom: 1px solid #ededed;
+}
+.applica_bottom li:last-child{
+    border-bottom: 0;
+}
+.applica_bottom li .name{
+    position:absolute;
+    left:0;
+    top:0;
+    text-align: justify;
+    line-height: 2rem;
+}
+.applica_bottom li input{
+    width:100%;
+    text-align: right;
+    line-height: 1.85rem;
+}
+.appli_for_with .checkin{
+     padding: 0.5rem 0.75rem 0.5rem  3.5rem;
+}
+
+.appli_for_with .seclet_but{
+  position: absolute;
+  right: 0;
+  top: 0.9rem;
+  width: 1.75rem;
+  height: 1.4rem;
+  background: url(http://localhost/caifumuchang/wap/tpl/fanwe/images/iconlist_02.png) no-repeat 0 93%;
+  background-size: 100%;
+}
+.modular{
+    padding: 0.7rem 1.4rem 0.3rem 1.4rem;
+    margin-top: 0.5rem;
+}
+.sm_title{
+  font-size: 0.7rem;
+}
+.infos{
+    position: relative;
+    box-sizing: border-box;
+    height: 3rem;
+    border-bottom: 1px solid #ededed;
+    margin-bottom: 0.3rem;
+}
+.rmb{
+    width: 2rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size:1.8rem ;
+    text-align: left;
+}
+#Jcarry_amount{
+    width:10rem;
+    font-size: 1.2rem;
+    padding: 0.6rem 0;
+}
+.info_num{
+    font-size:0.7rem;
+    line-height: 1.3rem;
+}
+.purchase_tip{
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    padding-left:1.2rem ;
+}
+#uc_carry_money .big-button{
+    position: fixed;
+    left: 50%;
+    bottom: 3.75rem;
+    margin-left: -7.5rem;
+}

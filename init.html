@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0,minimum-scale=0.5">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" type="text/css" href="./css/public.css"/>
+   	<link rel="stylesheet" type="text/css" href="./css/init.css"/>
+   	<link rel="stylesheet" type="text/css" href="./css/swiper.min.css"/>
+   	<script type='text/javascript' src='./js/swiper.min.js' charset='utf-8'></script>
+</head>
+<body>
+<div class="page" id='init'>
+	<div class="content">
+		<!-- 这里是页面内容区 -->
+		<div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="#"><img src="./images/project.jpg" width="100%"/></a></div>
+            <div class="swiper-slide"><a href="#"><img src="./images/project.jpg" width="100%"/></a></div>
+            <div class="swiper-slide"><a href="#"><img src="./images/project.jpg" width="100%"/></a></div>
+            <div class="swiper-slide"><a href="#"><img src="./images/project.jpg" width="100%"/></a></div>
+		</div>
+        <div class="swiper-pagination m1"></div>
+    </div>
+    <!-- 调用轮播 -->
+    <script>
+	    var swiper = new Swiper('.swiper-container', {
+		autoplay:{
+			autoplay:3000,
+			autoplayStopOnLast:true,
+		},
+		speed:1000,
+	      pagination: {
+	        el: '.swiper-pagination',
+			clickable:true,
+	      },
+	    });
+  	</script>
+		<!-- 代码 结束 -->
+			<div class="navigation">
+				<ul>
+					<li class="novice">
+						<a href="uc_novice_guide.html" class="nav-a">
+							<div class="icon"></div>
+							<div class="words">新手指导</div>
+						</a>
+					</li>
+					<li class="purchase">
+						<a href="deals.html" class="nav-a">
+							<div class="icon"></div>
+							<div class="words">购买羊只</div>
+						</a>
+					</li>
+					<li class="my">
+						<a href="uc_invest.html" class="nav-a">
+							<div class="icon"></div>
+							<div class="words">我的牧场</div>
+						</a>
+					</li>
+					<li class="notice">
+						<a href="uc_fficial_announ.html" class="nav-a">
+							<div class="icon"></div>
+							<div class="words">官方公告</div>
+						</a>
+					</li>
+					<li class="monitor">
+						<a href="uc_video.html" class="nav-a">
+							<div class="icon"></div>
+							<div class="words">牧场视频</div>
+						</a>
+					</li>
+					<li class="guarantee" >
+						<a href="uc_safety_guarantee.html" class="nav-a">
+							<div class="icon"></div>
+							<div class="words">安全保障</div>
+						</a>
+					</li>
+				</ul>
+			</div>		
+			<ul class="recommended_nav_2">
+					<!--常规-进行中-->
+					<li class="clearfix project-2" >
+						<a href="javascript:;" onclick="window.location.href='deal.html'">
+							<div class="stage stage-2 fl">常规</div>
+							<p class="project_name">原生态苏尼特羔羊180312<span class="fr surplus">剩余：150</span>
+							</p>
+							<div class="title_nav">
+								<div class="con_height">
+									<div class="w_b tc">
+										<div class="tl je"><p><i class="big">780</i><i class="small">元</i></p><p class="small">羊单价</p></div>
+										<div class="tl lv"><p><i class="big">150</i><i class="small">只</i></p><p class="small">羊只数量</p></div>
+										<div class="tl sj"><p><i class="big">120</i><i class="small">天</i></p><p class="small">联养周期</p></div>
+									</div>
+								</div>
+							</div>
+							<p class="return">&nbsp;快养只自己的小羊吧！</p>
+						</a>
+					</li>
+					<li class="clearfix project-1" >
+						<a href="javascript:;" onclick="window.location.href='deal.html'">
+							<div class="stage stage-1 fl">辅助</div>
+							<p class="project_name">原生态苏尼特羔羊180312<span class="fr">剩余：50</span></p>
+							<div class="title_nav">
+								<div class="con_height">
+									<div class="w_b tc">
+										<div class="tl je"><p><i class="big">780</i><i class="small">元</i></p><p class="small">羊单价</p></div>
+										<div class="tl lv"><p><i class="big">50</i><i class="small">只</i></p><p class="small">羊只数量</p></div>
+										<div class="tl sj"><p><i class="big">35</i><i class="small">天</i></p><p class="small">联养周期</p></div>
+									</div>
+								</div>
+							</div>
+							<p class="return">&nbsp;每周一、三、五09:30放羊</p>
+						</a>
+					</li>
+					<!--VIP-进行中-->
+					<li class="clearfix project-3">
+						<a href="javascript:;" onclick="window.location.href='deal.html'">
+							<div class="stage stage-3 fl">VIP</div>
+							<p class="project_name">原生态苏尼特羔羊180312</p>
+							<div class="title_nav">
+								<div class="con_height">
+									<div class="w_b tc">
+										<div class="tl je"><p><i class="big">780</i><i class="small">元</i></p><p class="small">羊单价</p></div>
+										<div class="tl lv"><p><i class="big">100</i><i class="small">只</i></p><p class="small">羊只数量</p></div>
+										<div class="tl sj"><p><i class="big">120</i><i class="small">天</i></p><p class="small">联养周期</p></div>
+									</div>
+								</div>
+							</div>
+							<p class="return">&nbsp;私人订制，回报尊享！</p>
+						</a>
+					</li>
+					<!-- vip无人定制-->
+					<li class="clearfix project-4">
+						<div class="stage stage-3 fl">VIP</div>
+						<p class="project_name">原生态苏尼特羊群（请联系客服订购∩_∩）</p>
+						<div class="title_nav">
+							<p>私人订制&nbsp;&nbsp;做超级牧主</p>
+						</div>
+						<p class="return">&nbsp;私人订制，回报尊享！</p>
+					</li>
+				</ul>
+		<div class="clear_both init-bar-statics" >
+		</div>
+	</div>
+</div>
+<nav class="bar bar-tab">
+	<a class="pasture tab-item active" href="init.html">
+		<i class="icon"></i>
+		<span class="tab-label">牧场</span>
+	</a>
+	<a class="found tab-item" href="found.html">
+		<i class="icon"></i>
+		<span class="tab-label">发现</span>
+	</a>
+	<a class="my tab-item" href="uc_center.html">
+		<i class="icon"></i>
+		<span class="tab-label">我的</span>
+	 </a>	    
+</nav>
+<script>
+setInterval("clock()",1000);
+function clock(key){
+   var date1=new Date();//开始时间
+	var date2=new Date('2018/03/28 10:17:22');    //结束时间
+	var date3=date2.getTime()-date1.getTime();  //时间差的毫秒数
+	//计算出相差天数
+	var days=Math.floor(date3/(24*3600*1000));
+	//计算出小时数
+	var leave1=date3%(24*3600*1000);    //计算天数后剩余的毫秒数
+	var hours=Math.floor(leave1/(3600*1000)+days*24);	
+	 //计算相差分钟数
+	var leave2=leave1%(3600*1000) ;       //计算小时数后剩余的毫秒数
+	var minutes=Math.floor(leave2/(60*1000));
+	 //计算相差秒数
+	var leave3=leave2%(60*1000) ;     //计算分钟数后剩余的毫秒数
+	var seconds=Math.round(leave3/1000);
+	console.log("剩余"+hours+"小时 "+minutes+" 分钟"+seconds+" 秒");
+}
+</script>		
+</body>
+</html>

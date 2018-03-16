@@ -1,0 +1,23 @@
+/*充值提现规则*/
+.rw_rule{
+    background: #fff;
+    padding:0.4rem 0.85rem ;
+}
+.rule_title{
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
+.rule_date{
+    font-size: 0.75rem;
+}
+.chongzhi,.rule_con{
+    font-size: 0.85rem;
+}
+.rule_con{
+    line-height: 1.5rem;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+.tixian{
+    margin-top: 1.55rem;
+}

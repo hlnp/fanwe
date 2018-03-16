@@ -1,0 +1,69 @@
+/*官方公告*/
+.announ_list li{
+    box-sizing: border-box;
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.4rem 0.45rem;
+    position: relative;
+}
+.announ_list li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.announ_list li .announ_words p{
+    color: #a9a9a9;
+    font-size: 0.7rem;
+}
+.announ_list .announ_logo{
+    box-sizing: border-box;
+    width: 5.3rem;
+    height: 4rem;
+    background: url(../images/logo_01.jpg) no-repeat center center;
+    background-size: 100%;
+    margin-right: 0.6rem;
+}
+.announ_words h5{
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #1a1a1f;
+    line-height: 1.2rem;
+}
+.announ_words .announ_date2{
+    position: absolute;
+    bottom: 0.5rem;
+    left: 6.35rem;
+}
+.dingzhi{
+    padding: 0 0.2rem;
+    background: #3db4cc;
+    color: #fff;
+    font-size: 0.6rem;
+    text-align: center;
+    margin-right: 0.3rem;
+	margin-top:0.1rem;
+}
+.announ_list .new{
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+}
+/*公告历史记录*/
+#uc_historical_record #type a{
+    border: 1px solid #3db4cc;
+    color: #3db4cc;
+}
+#uc_historical_record #type a.active{
+    border: 0;
+    color: #fff;
+    background:linear-gradient(to right,#3db4cc,#6fd6ea);
+}
+.return_change{
+    padding-left: 0.3rem;
+}
+.return_change .detail{
+    text-align: justify;
+    margin-top: 1rem;
+	font-size:0.9rem;
+}

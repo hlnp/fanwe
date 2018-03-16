@@ -1,0 +1,25 @@
+/*article_list文章列表页*/
+.article_list_content{
+	background:#f0f0f3;
+}
+.title_list{
+	padding: 0.5rem;
+	background:#f0f0f3;
+}
+.title_icon{
+	background: #fff;
+	border:1px solid #ededed;
+	border-radius: 0.4rem;
+}
+.article_list_content .list-block .item-content{
+	height: 2.5rem;
+}
+.article_list_content .list-block .item-link .item-inner{
+	height: 2.5rem;
+	line-height: 2.5rem; 
+	padding: 0 1rem;
+}
+.article_list_content .list-block{ 
+	font-size:0.9rem;
+	color: #1a1a1f;
+}

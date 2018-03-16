@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>商品详情</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0,minimum-scale=0.5">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" type="text/css" href="./css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/goods_information.css"/>
+</head>
+<body>	
+<div class="page" id='goods_information'>
+	<header class="bar bar-nav">               
+	    <a href="integral_mall.html" class="button pull-left">
+	        <span class="icon"></span>
+	        <span class="fanhui">返回</span>
+	    </a>
+	    <h1 class="title pull-left">商品详情</h1>
+	</header>
+<div class="content">
+<!-- 这里是页面内容区 -->
+<!--商品详情-->
+    <div class="card-container bgCo">
+    	<div class="card">
+	    	<div class="exchange-header fillet">
+				<div class="header-img">
+					<img src="./images/sheep.png" width="100%"/>
+				</div>
+				<div class="goods-name">
+					<span class="m_co">1000分</span>&nbsp;-&nbsp;手机数据线品盛 iPhone5数据线 苹果5s iPhone6 Plus充电线
+				</div>
+			</div>
+			<div class="card-content fillet">
+				<div class="list">
+					<ul>
+						<li>
+							<label>我的积分</label>
+							<div class="list_con fr"><span>2000</span>分</div>
+						</li>
+						<li>
+							<label>兑换人数</label>
+							<div class="list_con fr">12人</div>
+						</li>
+						<li>
+							<label>剩余数量</label>
+							<div class="list_con fr"><span>20</span></div>
+						</li>
+						<li class="exc_num">
+							<label>兑换数量<span class="sd a9">可手动输入</span></label>
+							<div class="list_con nun_choose fr">
+								<div class="nun_choose">
+									<span class="Minus c_number pull-left">−</span>
+									<input type="text" name="number" id="number" max="20" value="1" class="a1 nuns pull-left"/>
+									<span class="c_number Plus pull-left">+</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+    </div>
+	<!-- 兑换按钮-->
+	<div class="w_b_f_1 but_box sure_ex">
+		<div class="sure_ex_left a9 fl">
+			<span>共<span class="a1 shopNumber">1</span>件</span>&nbsp;&nbsp;<span>小计<span class="a1 Money">1000</span>积分</span>
+		</div>
+		<div class="sure_ex_right fl">
+			<button id="submitt" class="but_this">朕要兑换</button>
+		</div>
+	</div>
+	<div class="card-container">
+	    <div class="card">
+	        <div class="cards-header a1">商品详情</div>
+	        <div class="cards-content">
+			<style>
+				.card-content-inner img{
+					width:100%;
+				}
+			</style>
+	        <div class="card-content-inner">
+				这里是一张长图
+	        </div>
+	        </div>
+	    </div>
+	</div>
+<!--弹出框-->
+	<div id="goodcover"></div>
+	<div id="exchange_appli">
+		<div class="exch_top white">
+			<div class="check"></div>
+			<p class="chenk_success">兑换成功</p>
+		</div>
+		<div class="exch_bottom">
+			<ul>
+				<li class="a1">兑换积分<span class="a9 Money"></span></li>
+				<li class="a1"><span class="fl" style="padding-left:0">兑换商品</span><span class="a9 name">手机数据线品盛 iPhone5数据线 苹果5s iPhone6 Plus充电线</span></li>
+				<li class="a1">兑换数量<span class="shopNumber a9">1</span><span class="a9" style="padding-left:0;">份</span></li>
+			</ul>						         
+			<a href="uc_goods_order.html" class="view_ex">查看我的兑换</a>
+		</div>
+		<!-- 关闭按钮-->
+		<div class="close"><a href="integral_mall.html" id="closebtn"></a></div>
+	</div>
+</div>
+</div>
+</body>
+</html>
+

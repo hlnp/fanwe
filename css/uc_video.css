@@ -1,0 +1,70 @@
+/*牧场视频*/
+#uc_video .buttons-tab{
+    margin: 0.25rem 0 0.75rem 0;
+}
+#uc_video .buttons-tab .tab-link{
+    box-sizing: border-box;
+    width: 22.5%;
+    margin-right: 3%;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.8rem;
+    color: #3db4cc;
+    border: 1px solid #3db4cc;
+    border-radius: 1rem;
+    text-align: center;
+}
+#uc_video .buttons-tab .tab-link.active{
+    color: #fff;
+    border: 0;
+    background: linear-gradient(to right,#3db4cc,#6fd6ea);
+}
+#uc_video .buttons-tab .tab-link:last-child{
+    margin-right: 0;
+}
+#uc_video .vedio_address{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 1rem 0.45rem 1rem;
+	overflow:hidden;
+}
+#uc_video .vedio_address h6{
+    font-size: 0.8rem;
+    line-height: 1.75rem;
+    border-bottom: 1px solid #ededed;
+}
+#uc_video .vedio_address p{
+    font-size: 0.7rem;
+    line-height: 0.9rem;
+    text-align: justify;
+    padding-top:0.45rem;
+}
+#uc_video .tab ul li{
+    box-sizing: border-box;
+    float: left;
+    width: 49%;
+    height: 6.75rem;
+    margin-right:2%;
+    margin-top: 0.4rem;
+    overflow: hidden;
+}
+#uc_video .tab ul li:nth-child(even){
+    margin-right: 0;
+}
+.content-block li{
+    position: relative;
+}
+#uc_video .content-block li p{
+    font-size: 0.65rem;
+    line-height:1.45rem;
+    position: absolute;
+    bottom: 0;
+    left: 0.5rem;
+}
+.content-block .video_pic{
+    width: 100%;
+    height: 5.25rem;
+    background:url(../images/vedio_pic.jpg) no-repeat center top;
+    background-size: cover;
+	border-bottom:1px solid #ededed;
+}

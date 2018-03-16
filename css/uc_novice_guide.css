@@ -1,0 +1,190 @@
+/*新手指导*/
+#uc_novice_guide{
+    background: #fff;
+}
+.floor01{
+   width: 100%;
+    height: 32.5rem;
+    background: url(../images/guide/guide01.jpg) no-repeat center top;
+    background-size: 100%;
+    text-align: center;
+}
+#uc_novice_guide h6{
+    color:#fff;
+    font-size: 1.3rem;
+    font-weight: normal;
+    padding-top: 4.75rem;
+    text-align: center;
+}
+.guide01{
+    width: 14.25rem;
+    height: 20.25rem;
+    margin:1rem auto 0 auto;
+    padding:1rem;
+}
+.guide01 p{
+    font-size: 1rem;
+    line-height: 1.45rem;
+    text-indent:2rem ;
+    text-align: justify;
+}
+.guide01 span{
+    color: #34b2e5;
+}
+.arrow_lower{
+    width: 100%;
+    height: 2.5rem;
+}
+.arrow_lower01{
+    background: url(../images/iconlist_05.png) no-repeat center 63%;
+    background-size: 2rem;
+}
+.grude-in{
+    width: 100%;
+    height: 1.1rem;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+.guide_top_02{
+    background: url(../images/guide/guide_01_1.jpg) no-repeat center bottom;
+    background-size: 100%;
+}
+.guide_middle_02{
+    width: 100%;
+    height: 22rem;
+    background: #69d6a4;
+}
+.guide_bottom_02{
+    background: url(../images/guide/guide_02_2.jpg) no-repeat center top;
+    background-size:100%;
+}
+.guide_detail_01{
+    width: 10rem;
+    margin:0 auto;
+    color: #fff;
+    font-size: 1rem;
+}
+#uc_novice_guide .guide_detail_01 h6{
+    padding:1.8rem 0 0.5rem 0;
+}
+.guide_detail_02{
+    width: 14.1rem;
+    height: 9rem;
+    margin:2rem auto 0 auto;
+    background: url(../images/guide/guide_02.png) no-repeat center center;
+    background-size: 14.1rem 9rem;
+}
+.arrow_lower02{
+    background: url(../images/iconlist_05.png) no-repeat center 70%;
+    background-size: 2rem;
+}
+.guide_top_03{
+    background: url(../images/guide/guide_03_1.jpg) no-repeat center bottom;
+    background-size: 100%;
+}
+.guide_detail_03{
+    width:100%;
+    height: 29rem;
+    background:#f5e27b;
+}
+#uc_novice_guide .guide_detail_03 h6,
+#uc_novice_guide .guide_detail_04 h6,
+#uc_novice_guide .guide_detail_05 h6
+{
+    padding: 1.25rem 0;
+}
+.guide_details{
+    position: relative;
+    width: 14.25rem;
+    background: #fff;
+    border-radius: 0.65rem;
+    padding: 0.5rem;
+    margin: 0 auto;
+}
+.trophy{
+    width: 3.35rem;
+    height:4.6rem;
+    position: absolute;
+    left:1rem;
+    top: 0;
+    background: url(../images/guide/trophy.jpg) no-repeat left top;
+    background-size: 3rem;
+}
+.guide_con{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding:1.8rem 0.7rem 0.5rem 0.7rem;
+    border: 2px dashed #6a6a69;
+    border-radius: 0.65rem;
+    text-indent: 2rem;
+}
+.guide_con p{
+    padding-top: 0.5rem;
+    text-align: justify;
+}
+.guide_con p:first-child{
+    text-indent: 2.7rem;
+}
+.guide_bottom_03{
+    background: url(../images/guide/guide_03_2.jpg) no-repeat center bottom;
+    background-size: 100%;
+}
+.arrow_lower03{
+    background: url(../images/iconlist_05.png) no-repeat center 80%;
+    background-size: 2rem;
+}
+.guide_top_04{
+    background: url(../images/guide/guide_04_1.jpg) no-repeat center bottom;
+    background-size: 100%;
+}
+.guide_middle_04{
+    width: 100%;
+    height: 25.75rem;
+    background: #3db4cc;
+}
+
+.procedure{
+    font-size: 1.025rem;
+    line-height: 1.925rem;
+    padding-left: 1rem;
+    background: url(../images/iconlist_05.png) no-repeat -6% 87.5%;
+    background-size: 2rem;
+}
+.procedure_con{
+    font-size: 1rem;
+    line-height: 1.25rem;
+    padding-left: 1rem;
+}
+.floor04 .guide_details{
+    padding: 1rem 1rem 1rem 0.9rem;
+}
+.guide_bottom_04{
+    background: url(../images/guide/guide_04_2.jpg) no-repeat center top;
+    background-size: 100%;
+}
+.arrow_lower04{
+    background: url(../images/iconlist_05.png) no-repeat center 62%;
+    background-size: 2rem;
+}
+.guide_top_05{
+    height: 2rem;
+    background: url(../images/guide/guide_05.jpg) no-repeat center bottom;
+    background-size: 100%;
+}
+.floor05 .guide_middle_05{
+    height: 21.75rem;
+    background: #f5cb7c;
+}
+.mascot{
+    width: 8.6rem;
+    height:8.95rem;
+    background: url(../images/guide/mengmeng.png) no-repeat center center;
+    background-size: 100%;
+    margin: 0 auto 2.5rem auto;
+}
+.contact_way{
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    text-align: center;
+}

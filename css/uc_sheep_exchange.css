@@ -1,0 +1,30 @@
+/*羊肉兑换记录*/
+#uc_sheep_exchange li{
+    margin-bottom: 0.5rem;
+}
+#uc_sheep_exchange .periods{
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 0.6rem;
+    padding:0 0.4rem;
+    border-bottom:1px solid #ededed;
+}
+#uc_sheep_exchange .gift_bottom{
+    padding: 0.5rem 0.35rem;
+}
+#uc_sheep_exchange .gift_pic{
+    width: 6.95rem;
+    height: 5.35rem;
+    border: 1px solid #ededed;
+    background: url(../images/gift_box.jpg) no-repeat center center;
+    background-size: 5.75rem 3.75rem;
+    margin-right: 1rem;
+}
+#uc_sheep_exchange  .gift_state{
+    width: 8.5rem;
+}
+#uc_sheep_exchange .gift_names{
+    font-size: 0.75rem;
+    text-align: justify;
+    height: 4.2rem;
+}

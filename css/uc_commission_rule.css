@@ -1,0 +1,26 @@
+/*推广规则*/
+.commission_rule{
+	padding: 0.5rem 0.75rem;
+}
+.commission_rule h6{
+	font-size: 1.4rem;
+	font-weight: normal;
+}
+.commission_rule .time{
+	font-size: 0.75rem;
+}
+.rule_content p{
+	font-size: 0.9rem;
+	line-height: 1.3rem;
+	text-align: justify;
+}
+.rule_content{
+	margin-top: 0.7rem;
+}
+.rule_content.rule_content .titles{
+	margin-top: 1rem;
+}
+#uc_center .uc_c_middle a,#uc_center .uc_c_bottom a{
+	display: block;
+	height: 100%;
+}

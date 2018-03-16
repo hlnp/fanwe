@@ -1,0 +1,15 @@
+/*充值记录*/
+.Money_Log li{
+    box-sizing: border-box;
+    background: #fff;
+}
+.oper_date{
+    width: 2.54rem;
+    margin-right: 0.5rem;
+    padding-top: 0.1rem;
+    text-align: center;
+}
+
+.trans_detail:not(:first-child){
+    border-top: 1px solid #ededed;
+}

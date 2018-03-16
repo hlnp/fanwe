@@ -1,0 +1,79 @@
+/*出栏羊群详情*/
+#uc_invest_detail .live-box{
+    width: 100%;
+    height:12.25rem;
+    background: url(../images/middle.jpg) no-repeat center center;
+    background-size: cover;
+    margin:0.5rem auto;
+    text-align: center;
+    padding-top: 0.8rem;
+    position: relative;
+}
+#uc_invest_detail .live-box .day{
+    font-size: 1.75rem;
+}
+#uc_invest_detail .live-box .master{
+    font-size:0.7rem ;
+}
+#uc_invest_detail .live-box .shine{
+    width: 4rem;
+    height:3.25rem;
+    position: absolute;
+    right: 3.75rem;
+    bottom: 0.2rem;
+    border-radius:25% 50% 25% 50%;
+    z-index: 20;
+}
+#uc_invest_detail .live-box .declaration{
+    width: 8rem;
+    height: 4.5rem;
+    padding: 0.3rem 0.5rem;
+    background: url(../images/kuang.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    bottom: 3.1rem;
+    left: 3.5rem;
+}
+.declaration .manifesto{
+    font-size: 0.65rem;
+	line-height:0.85rem;
+	height:2.7rem;
+    text-align: justify;
+}
+.look{
+    width: 2.5rem;
+    height: 0.8rem;
+    background: url(../images/lips.png) repeat-x center center;
+    background-size: 0.8rem;
+}
+.inform div{
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 0.65rem;
+    padding: 0 0.5rem;
+}
+.inform .sheep_num{
+    border-bottom: 1px solid #ededed;
+}
+.convert{
+    display: block;
+    width: 15rem;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    border-radius: 1.125rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+    margin: 0.7rem auto 0 auto;
+    background: linear-gradient(to right,#3db4cc,#6fd6ea);
+}
+.convert a{
+    color: #fff;
+}
+.inform .exchange_rule{
+    display: block;
+	height:2.5rem;
+	line-height:2.5rem;
+	text-align:center;
+	font-size:0.85rem;
+}

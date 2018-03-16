@@ -1,0 +1,24 @@
+{if $smarty.request.is_ajax neq 1}
+<?php
+$this->_var['hide_back'] = 1;
+$this->_var['view_search'] = 1;
+$this->_var['search_url'] = wap_url("index","deals_search");
+$this->_var['search_act'] = "deals_search";
+?>
+<!--牧场视频-->
+{include file="./inc/header.html"}	
+<div class="page" id='video_ranch'>
+{include file="./inc/title.html"}
+{/if}
+<ul class="recommended_nav_2 invest">
+	<div class=" con_height" style="margin-top:15%;">
+		<div style="margin-top:2%;">
+			<input type="hidden" id="found_url" value="{$data.rel_url}" />
+		</div>
+	</div>
+</ul>
+<script>
+	var url = document.getElementById('found_url').value; 
+	window.location.href=url;
+</script>
+{include file="./inc/footer.html"}

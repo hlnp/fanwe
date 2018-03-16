@@ -1,0 +1,123 @@
+/*支付密码*/
+#shopping_exchange #trade_pwd,
+#exchange_pwd #trade_pwd
+{
+    width:100%;
+    height:49px;
+    border:1px solid #ededed;
+    border-radius:8px;
+    margin:8px auto;
+    padding-left:15px;
+}
+#shopping_exchange .input_tip,
+#exchange_pwd .input_tip
+{
+    font-size:18px;
+    color:#a9a9a9;
+}
+#shopping_exchange .tip_word,
+#exchange_pwd .tip_word
+{
+    font-size:13px;
+    color:#cccccc;
+}
+#shopping_exchange #submit_pwd,
+#exchange_pwd #submit_pwd{
+    width:100%;
+    height:2.25rem;
+    line-height: 2.25rem;
+    border-radius: 1.125rem;
+    text-align: center;
+    background: linear-gradient(to right,#3db4cc,#6fd6ea);
+    color: #fff;
+    font-size: 1rem;
+    margin-top:40px;
+}
+#shopping_exchange .check
+{
+    margin: 1.3rem auto 0 auto;
+}
+#shopping_exchange .exch_bottom .price,
+#exchange_pwd .exch_bottom .price
+{
+    font-size: 0.8rem;
+}
+#exchange_pwd .exch_bottom{
+	height:auto;
+    padding: 0.6rem 0.5rem 0.6rem 1rem;
+}
+#exchange_pwd .shName{
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+/*订单记录   购物清单*/
+#merchandise_order .content li{
+    width:100%;
+    height:7.5rem;
+    border:1px solid #ededed;
+    border-radius:8px;
+    background:#fff;
+    margin-bottom:0.5rem;
+}
+#merchandise_order .order_number{
+    color:#a9a9a9;
+    padding:0 0.4rem;
+    font-size:12px;
+    height:1.5rem;
+    line-height:1.5rem;
+    border-bottom:1px solid #ededed;
+}
+#merchandise_order .order_con{
+    padding:7px;
+}
+
+#merchandise_order .pro_pic{
+    width:6.75rem;
+    height:5.25rem;
+    border:1px solid #ededed;
+    overflow:hidden;
+    margin-right:15px;
+}
+#merchandise_order .pro_pic img{
+    width:100%;
+    height:100%;
+}
+#merchandise_order .order_detail{
+    width:6rem;
+}
+#merchandise_order .price{
+    font-size:20px;
+}
+#merchandise_order .pro_name{
+    width:8rem;
+    height:2.5rem;
+    font-size:13px;
+    line-height:17px;
+    text-align:justify;
+
+}
+@media (min-width: 375px){
+    #merchandise_order .order_detail{
+        width:9rem;
+    }
+    #merchandise_order .pro_name{
+        width:9rem;
+    }
+	#merchandise_order .deliver_goods{
+	width:9rem;
+	}
+}
+#merchandise_order .deliver_goods{
+	width:8rem;
+    height:1.1rem;
+    line-height:1.1rem;
+    color:#a9a9a9;
+    font-size:14px;
+}
+.no_more{
+    text-align:center;
+    display:none;
+}

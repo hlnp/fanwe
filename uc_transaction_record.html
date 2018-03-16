@@ -1,0 +1,92 @@
+{if $smarty.request.is_ajax neq 1}
+{include file="./inc/header.html"}
+<div class="page" id='uc_transaction_record'>
+    <!-- 交易记录-->
+    <?php
+	$this->_var['back_url'] = wap_url("index","uc_bank#index");
+    $this->_var['back_page'] = "#uc_bank";
+    $this->_var['back_epage'] = $_REQUEST['epage']=="" ? "#uc_bank" : "#".$_REQUEST['epage'];
+    ?>
+    {include file="./inc/notfooter_title.html"}
+    <div class="content infinite-scroll pull-to-refresh-content"  data-distance="{$data.rs_count}"  all_page="{$data.page.page_total}" ajaxurl="{wap_url x="index" r="uc_incharge_log#index"}">
+    <!-- 这里是页面内容区 -->
+    <!--交易记录-->
+    <ul class="Money_Log invest">
+        {/if}
+        <!-- 默认的下拉刷新层 -->
+        <div class="pull-to-refresh-layer" all_page="{$data.page.page_total}" >
+            <div class="preloader"></div>
+            <div class="pull-to-refresh-arrow"></div>
+        </div>
+        <!-- 如果没有记录，显示以下-->
+        <!--<div class="no_record"></div>-->
+        <!-- 没有记录结束-->
+        <li class="clearfix">
+            <p class="trans_total"><span>2017.02</span>充值<span>￥200,000.00</span>提现<span>￥200,000.00</span></p>
+            <div class="white bank-1 container03 clearfix">
+                <div class="bank_icon fl">
+                    <img src="./images/jianhang.jpg" alt=""/>
+                </div>
+                <div class="detail fl">
+                    <p class="bank_card">尾号1234储蓄卡</p>
+                    <p class="time a9">2017-02-14 11:35</p>
+                </div>
+                <div class="moneys fr">
+                    <p class="money_value fc">+ ￥3000.00</p>
+                    <p class="catch_width a9">充值金额</p>
+                </div>
+            </div>
+            <div class="white bank-1 container03 clearfix">
+                <div class="bank_icon fl">
+                    <img src="./images/jianhang.jpg" alt=""/>
+                </div>
+                <div class="detail fl">
+                    <p class="bank_card">尾号1234储蓄卡</p>
+                    <p class="time a9">2017-02-14 11:35</p>
+                </div>
+                <div class="moneys fr">
+                    <p class="money_value m_co">-￥3000.00</p>
+                    <p class="catch_width a9">提现金额</p>
+                </div>
+            </div>
+         </li>
+        <li class="clearfix">
+            <p class="trans_total"><span>2017.02</span>充值<span>￥200,000.00</span>提现<span>￥200,000.00</span></p>
+            <div class="white bank-1 container03 clearfix">
+                <div class="bank_icon fl">
+                    <img src="./images/jianhang.jpg" alt=""/>
+                </div>
+                <div class="detail fl">
+                    <p class="bank_card">尾号1234储蓄卡</p>
+                    <p class="time a9">2017-02-14 11:35</p>
+                </div>
+                <div class="moneys fr">
+                    <p class="money_value fc">+ ￥3000.00</p>
+                    <p class="catch_width a9">充值金额</p>
+                </div>
+            </div>
+            <div class="white bank-1 container03 clearfix">
+                <div class="bank_icon fl">
+                    <img src="./images/jianhang.jpg" alt=""/>
+                </div>
+                <div class="detail fl">
+                    <p class="bank_card">尾号1234储蓄卡</p>
+                    <p class="time a9">2017-02-14 11:35</p>
+                </div>
+                <div class="moneys fr">
+                    <p class="money_value m_co">-￥3000.00</p>
+                    <p class="catch_width a9">提现金额</p>
+                </div>
+            </div>
+        </li>
+        {if $smarty.request.is_ajax neq 1}
+    </ul>
+
+    {include file="./inc/footer.html"}
+    {/if}
+
+
+
+
+
+

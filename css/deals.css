@@ -1,0 +1,67 @@
+/*购买羊只--项目列表*/
+#type{
+    width: 100%;
+    height: 2rem;
+    margin:0.3rem auto 0.8rem 0;
+}
+#type a{
+    display: inline-block;
+    box-sizing: border-box;
+    float: left;
+    width: 32%;
+    height: 2rem;
+    line-height: 2rem;
+    margin-right: 2%;
+    text-align: center;
+    border-radius:1rem;
+    font-size: 0.9rem;
+}
+#type a:last-child{
+    margin-right: 0;
+}
+#type1{
+    border:1px solid #3db4cc;
+    color: #3db4cc;
+}
+#type2{
+    border: 1px solid #fec257;
+    color: #fec257;
+}
+#type3{
+    border: 1px solid #4bd1a4;
+    color:#4bd1a4;
+}
+#type .active1{
+    color: #fff;
+    border: 0;
+    background:linear-gradient(to right,#3db4cc,#6fd6ea);
+}
+#type .active2{
+    color: #fff;
+    border:0;
+    background: linear-gradient(to right,#ffbe4c,#facc70);
+}
+#type .active3{
+    color: #fff;
+    border:0;
+    background: linear-gradient(to right,#41d1a1,#6de3a4);
+}
+#deals .recommended_nav_2{
+    margin: 0 auto;
+}
+#deals .recommended_nav_2 li{
+    height: 5.6rem;
+}
+
+.sellOut01{
+    color: #fff;
+    background: #3db4cc!important;
+}
+.sellOut02{
+    color: #fff;
+    background: #ffbe4c!important;
+}
+.sellOut03{
+    color: #fff;
+    background: #41d1a1!important;
+}

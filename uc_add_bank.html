@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>添加银行卡</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0,minimum-scale=0.5">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" type="text/css" href="./css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/uc_add_bank.css"/>
+</head>	
+<body>	
+<div class="page" id='uc_add_bank'>
+	<!-- 添加银行卡-->
+	<header class="bar bar-nav">
+	    <a href="uc_bank.html" class="button pull-left" >
+	        <span class="icon"></span>
+	        <span class="fanhui">返回</span>
+	    </a>
+	    <h1 class="title pull-left">提现</h1>
+	</header>
+	<div class="content">
+	<!-- 这里是页面内容区 -->
+		<!--添加提现银行列表-->
+		<div class="uc_add_bank">
+			<div class="bank_bg white fillet">
+				<ul>
+					<li class="dl">
+						<span class="name">持&nbsp;卡&nbsp;人</span>
+						<div class="info">
+							<input type="text" value="侯磊" readonly="true" placeholder="请输入持卡人姓名"/>
+						</div>
+					</li>
+					<li class="dl">
+						<span class="name">卡&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号</span>
+						<div class="info">
+							<input id="bankcard" type="text" placeholder="请输入卡号"/>
+						</div>
+					</li>
+					<li class="dl region_select">
+						<span class="name">所&nbsp;在&nbsp;地</span>
+						<div class="info">
+							<select name='region_lv1' id="region_lv1" style="display: none; margin-right:5px;">
+								<option selected='selected' value='1'>中国</option>
+							 </select>
+							 <select name='region_lv2' id="region_lv2" class="f_l a9">
+								<option value='0'>省份</option>
+							</select>
+							<select name='region_lv3' id="region_lv3" class="f_l a9">
+								<option value='0'>城市</option>
+							 </select>
+							<select name='region_lv4' id="region_lv4" class="f_l a9">
+								<option value='0'>城区</option>
+							</select>
+						</div>
+						<div style="height:0px; clear:both"></div>
+					</li>
+					<li class="dl">
+						<span class="name">选择银行</span>
+						<div class="info bank_list">
+							<div class="this_bank a9">请查看银行列表</div>
+							<input type="hidden" id="bank_id" name="bank_id" value="">
+							<div class="seclet_but"></div>
+						</div>
+					</li>	
+					<li class="dl">
+						<span class="name">开户支行</span>
+						<div class="info">
+							<input id="bankzone" type="text" placeholder="请输入开户行"/>
+						</div>
+					</li>
+					<li class="dl">
+						<span class="name">账户类型</span>
+						<div class="info clearfix">
+							<input type="hidden" id="bank_val" name="bank_val" value="1"/>
+							<span class="card_type f_l a9">借记卡</span>
+							<span class="no_type f_r">不支持信用卡</span>
+						</div>
+					</li>
+				</ul>
+			</div>			
+            <div class="w_b but_box_parent padding">
+				<div class="w_b_f_1 but_box">
+					<button id="add_bank" class="big-button press">确认添加</button>
+				</div>
+			</div>
+			<div class="" style="display: none">
+					<!-- 选择银行卡-->
+					<div id="bank_select_list">
+						<ul class="bank_seclet">
+							<li class="closeList"><span class="close-popup">关闭</span></li>
+							<li class="close-popup">
+								<span class="bankName">中国工商银行</span>
+								<input type="radio" value="1" />
+							</li>
+							<li class="close-popup">
+								<span class="bankName">中国农业银行</span>
+								<input type="radio" value="1" />
+							</li>
+							<li class="close-popup">
+								<span class="bankName">中国工商银行</span>
+								<input type="radio" value="2" />
+							</li>
+							<li class="close-popup">
+								<span class="bankName">中国建设银行</span>
+								<input type="radio" value="3" />
+							</li>
+							<li class="close-popup">
+								<span class="bankName">招商银行</span>
+								<input type="radio" value="4" />
+							</li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+</body>
+</html>

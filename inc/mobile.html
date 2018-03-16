@@ -1,0 +1,24 @@
+
+<div class="fillet holds">
+	{foreach from="$data.owner" item="val"}
+	<h5>{$val.count}</h5>
+	{/foreach}
+	<p class="this_period">本期牧主（位）</p>
+	<p class="come_on">欢迎各位牧主大大继续购买哦∩_∩</p>
+</div>
+<div class="trade_detail_list">
+	<ul>
+		{foreach from="$data.load_list" item="load"}
+		<li>
+			<div class="userName fl">
+				<div class="avatar fl">
+					<img src="./images/touxiang.png"/>
+				</div>
+				<div class="use_nam fl">{function name="utf_substr" v="$load.user_name"}</div>
+			</div>
+			<div class="buy_sheep_num fl">X{$load.numbers}</div>
+			<div class="fr">{function name="to_date" v="$load.create_time"}</div>
+		</li>
+		{/foreach}
+	</ul>
+</div>

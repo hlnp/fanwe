@@ -1,0 +1,24 @@
+/*个人积分*/
+.integral_list ul{
+	background:#fff;
+}
+.integral_list li{
+	box-sizing: border-box;
+	height: 3.75rem;
+	padding: 0.6rem 0.75rem;
+	border-bottom: 1px solid #ededed;
+	color: #a9a9a9;
+	font-size: 0.75rem;
+}
+.integral_list li:last-child{
+	border-bottom: 0;
+}
+.integral_list .innum{
+	font-size: 1.1rem;
+}
+.integral_list .op_type{
+	line-height: 1.6rem;
+}
+.integral_list .div_r{
+	text-align: right;
+}

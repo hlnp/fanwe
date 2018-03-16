@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>收货信息</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0,minimum-scale=0.5">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" type="text/css" href="./css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/uc_address.css"/>
+</head> 
+<body>
+<div class="page" id='uc_address'>
+    <header class="bar bar-nav">
+      <a href="goods_address.html" class="button  pull-left">
+      <span class="icon"></span>
+      <span class="fanhui">返回</span>
+      </a>
+      <h1 class="title pull-left">收货信息</h1>
+  </header>
+  <div class="content bgCo">
+    <div class="list-block white">
+      <ul>
+        <!-- Text inputs -->
+        <li class="project_list">
+          <div class="item-content">
+            <div class="item-inner">
+              <div class="item-title label">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名</div>
+              <div class="item-input">
+                <input type="text" id="name" name="name" value="" placeholder="请输入收货人姓名" />
+                <span class="delect"></span>
+              </div>
+            </div>
+          </div>
+        </li>
+  	  <li class="project_list">
+          <div class="item-content">
+            <div class="item-inner">
+              <div class="item-title label">电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话</div>
+              <div class="item-input">
+                <input type="text" id="phone" name="phone" value="" placeholder="请输入电话号码" data-rules="required|mobile"/>
+                <span class="delect"></span>
+              </div>
+            </div>
+          </div>
+       </li>
+  		<li class="province">
+              <div class="item-content">
+                  <div class="item-inner">
+                      <div class="item-title label">所&nbsp;&nbsp;在&nbsp;地</div>
+                      <div class="item-input" id="city">
+                          <select class="prov a9" id="ProvSelect" >
+  							<option data-index="" class="default_region" value="">省份</option>
+                          </select>
+                          <select class="city a9" id="CitySelect" >
+  							<option data-index="" class="default_region" value="">城市</option>
+                          </select>
+                          <select class="dist a9" id="DistSelect">
+  				          <option  data-index="" class="default_region" value="">城区</option>
+                          </select>
+                      </div>
+                  </div>
+              </div>
+          </li>
+        <!-- 结束-->
+       <li class="align-top detail">
+          <div class="item-content">
+            <div class="item-inner">
+              <div class="item-title label">详细地址</div>
+              <div class="item-input">
+                <textarea id="address" name="address" value="" placeholder="请输入详细地址"></textarea>
+  			</div>
+            </div>
+          </div>
+        </li>
+        <li class="project_list">
+          <div class="item-content ">
+            <div class="item-inner">
+              <div class="item-title label">邮&nbsp;&nbsp;&nbsp;&nbsp;编</div>
+              <div class="item-input">
+                <input type="text" id="zip_code" name="zip_code" value="" placeholder="请输入邮政编码"/>
+                <span class="delect"></span>
+              </div>
+            </div>
+          </div>
+        </li>
+         <li class="project_list">
+           <div class="item-content">
+             <div class="item-inner">
+               <div class="item-title label">设为默认</div>
+               <div class="item-input">
+                   <!--<input type="hidden" id="id_val" name="id" value="" />-->
+                 <label class="label-switch fr">
+                   <input type="checkbox" checked="checked" id="is_default" name="is_default" value="1">
+                   <div class="checkbox "></div>
+                 </label>
+               </div>
+             </div>
+           </div>
+         </li>
+      </ul>
+    </div>
+    <div class="content-block">
+      <div class="row">
+        <!-- 若为修改地址则隐藏 朕填好了按钮-->
+        	<div class="address_submit"><a href="#" class="big-button press"  id="submitt">保存</a></div>
+       	  <div class="address_submit"><a href="#" class="big-button press"  id="submitt">朕填好了</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+{include file="./inc/header.html"}	
+<div class="page" id='{$data.act}'>
+	<!-- 交易详情-->
+<?php
+	$this->_var['back_url'] = wap_url("index","uc_learn_deal_invest#index",array("id"=>$this->_var['data']['uc_learn_deal_invest']['id']));
+	$this->_var['back_page'] = "#uc_learn_deal_invest";
+	$this->_var['back_epage'] = $_REQUEST['epage']=="" ? "#uc_borrowed" : "#".$_REQUEST['epage'];
+?>
+{include file="./inc/mobile_title.html"}
+<div class="content bgCo">
+<!-- 这里是页面内容区 -->
+
+<div class="fillet holds">
+	<h5>12</h5>
+	<p class="this_period">本期牧主（位）</p>
+	<p class="come_on">欢迎各位牧主大大继续购买哦∩_∩</p>
+</div>
+<div class="trade_detail_list">
+	<ul>
+		<li>
+			<div class="userName fl">
+				<div class="avatar fl">
+					<img src="./images/touxiang.png"/>
+				</div>
+				<div class="use_nam fl">小***</div>
+			</div>
+			<div class="buy_sheep_num fl">X20</div>
+			<div class="fr">2018-03-13 10:00:00</div>
+		</li>
+		<li>
+			<div class="userName fl">
+				<div class="avatar fl">
+					<img src="./images/touxiang.png"/>
+				</div>
+				<div class="use_nam fl">小***</div>
+			</div>
+			<div class="buy_sheep_num fl">X20</div>
+			<div class="fr">2018-03-13 10:00:00</div>
+		</li>
+		<li>
+			<div class="userName fl">
+				<div class="avatar fl">
+					<img src="./images/touxiang.png"/>
+				</div>
+				<div class="use_nam fl">小***</div>
+			</div>
+			<div class="buy_sheep_num fl">X20</div>
+			<div class="fr">2018-03-13 10:00:00</div>
+		</li>
+		<li>
+			<div class="userName fl">
+				<div class="avatar fl">
+					<img src="./images/touxiang.png"/>
+				</div>
+				<div class="use_nam fl">小***</div>
+			</div>
+			<div class="buy_sheep_num fl">X20</div>
+			<div class="fr">2018-03-13 10:00:00</div>
+		</li>
+		<li>
+			<div class="userName fl">
+				<div class="avatar fl">
+					<img src="./images/touxiang.png"/>
+				</div>
+				<div class="use_nam fl">小***</div>
+			</div>
+			<div class="buy_sheep_num fl">X20</div>
+			<div class="fr">2018-03-13 10:00:00</div>
+		</li>
+	</ul>
+</div>
+{include file="./inc/footer.html"}
+
+
+
+
+
+
+

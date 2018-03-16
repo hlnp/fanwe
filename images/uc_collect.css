@@ -1,0 +1,156 @@
+.invest_tit {
+	position:relative;
+}
+.detail_list li .h a.delete{
+
+    border-radius: 0;
+    display: auto;
+    width: auto;
+    height: auto;
+    text-align: center;
+    background: 0;
+}
+/*我的合同*/
+.contract_title{
+    width: 100%;
+    height:7.5rem;
+    background: url(../images/hetong.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 1.5rem 0 0 0;
+    margin-bottom: 0.5rem;
+}
+.contract_title h6{
+    color: #fff;
+    font-size: 3.1rem;
+    text-align: center;
+    line-height: 3.1rem;
+    font-weight: normal;
+}
+.contract_title p{
+    text-align: center;
+    font-size: 0.7rem;
+}
+.contract_title p.my{
+    margin-bottom: 0.5rem;
+}
+.contract_title p span{
+    padding: 0.2rem;
+}
+.contract_title p span:first-child{
+    margin-right: 0.6rem;
+}
+.contract_list li{
+    box-sizing: border-box;
+    width: 100%;
+    height: 2.75rem;
+    line-height: 2.75rem;
+    border: 1px solid #ededed;
+    border-radius: 0.4rem;
+    background: #fff;
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+    padding:0 0.75rem 0 0.6rem;
+}
+.contract_list li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.contract_list li .thou{
+    width: 1.5rem;
+    height: 100%;
+    background: url(../images/iconlist_01.png) no-repeat 0 26.5%;
+    background-size: 1.3rem;
+    margin-right: 0.15rem;
+
+}
+/*官方公告*/
+.announ_list li{
+    box-sizing: border-box;
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.75rem 0.45rem;
+    position: relative;
+}
+.announ_list li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.announ_list li .announ_words p{
+    color: #a9a9a9;
+    font-size: 0.7rem;
+}
+.announ_list .announ_logo{
+    box-sizing: border-box;
+    width: 4.5rem;
+    height: 3.5rem;
+    border: 1px solid #ededed;
+    background: url(../images/logo_01.jpg) no-repeat center center;
+    background-size: 100%;
+    margin-right: 0.6rem;
+}
+.announ_words h5{
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #1a1a1f;
+    line-height: 0.9rem;
+}
+.announ_words .announ_date2{
+    position: absolute;
+    bottom: 0.5rem;
+    left: 5.5rem;
+}
+.dingzhi{
+    padding: 0 0.2rem;
+    background: #3db4cc;
+    color: #fff;
+    font-size: 0.6rem;
+    text-align: center;
+    margin-right: 0.3rem;
+}
+.announ_list .new{
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+}
+
+/*周放羊公告*/
+.week_notice{
+    padding:0.8rem 0 0 0.75rem;
+}
+.week_notice h5,.return_change h5{
+    color: #1a1a1f;
+    font-size: 1.4rem;
+}
+.start_time{
+    font-size: 0.9rem;
+}
+.week_notice li{
+    margin-top: 1.1rem;
+}
+.week_notice li p{
+    font-size: 0.9rem;
+}
+/*官方公告*/
+.return_change{
+    padding-left: 0.3rem;
+}
+.return_change .detail{
+    text-align: justify;
+    margin-top: 1rem;
+	font-size:0.9rem;
+}
+
+/*历史记录*/
+#uc_historical_record #type a{
+    border: 1px solid #3db4cc;
+    color: #3db4cc;
+}
+#uc_historical_record #type a.active{
+    border: 0;
+    color: #fff;
+    background:linear-gradient(to right,#3db4cc,#6fd6ea);
+}

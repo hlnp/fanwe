@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>充值</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0,minimum-scale=0.5">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" type="text/css" href="./css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/my_integral.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/uc_incharge.css"/>
+</head>
+<body>
+<div class="page" id='uc_incharge'>
+	<header class="bar bar-nav">
+	    <a class="button  pull-left" href="uc_center.html">
+	        <span class="icon"></span>
+	        <span class="fanhui">返回</span>
+	    </a>
+	    <h1 class="title pull-left">充值</h1>
+	    <a href="uc_incharge_log.html" class="button fr records fanhui">充值记录</a>
+	</header>
+	<div class="content">
+		<div class="Menubox">
+	        <ul>
+	        	<li id="one1"  class="payment_method online">线上充值</li>
+				<li id="one2"  class="payment_method line">对公转账</li>
+			</ul>
+		</div>
+		<div id="con_one_1" class="uc_incharge"><!--线上充值-->
+			<div class="figure">
+				<span>￥</span>
+				<input id="money1" type="number"  placeholder="请输入充值金额">
+			</div>
+			<div class="figure spend_tip clear">
+				<div id="purchase" class="fl">充值金额可购常规羊：<i id="num-sheep">0</i>只</div>
+			</div>
+			<div class="bank_list in_line zfb">
+				<ul>
+					<li class="clearfix">
+						<div class="pay_detail clearfix">	
+							<div class="inline_pay_img_show">
+							      <img src="./images/zfb.jpg" height="100%" width="100%">
+							</div>
+							<div class="inline_pay_name">支付宝手机WAP支付</div>
+						</div>
+						<input class="mt  dw" onclick="" type="radio" iclass="" value="" id="ufee" name="paypath1" checked>
+					</li>
+				</ul>
+			</div>
+			<p class="reminder">温馨提示：当您的充值用途不是购买财富牧场的羊只时，7个自然日内我们不支持提现，7个自然日之后您申请提现时我们将收取0.6%的手续费哦∩_∩。</p>
+			<div class="w_b but_box_parent">
+				<div class="w_b_f_1 but_box">
+					<button id="on_incharge_done"  class="big-button press">朕要充值</button>
+				</div>
+			</div>
+			<div>
+				<a href="uc_rw_rule.html" class="rule">充值、提现规则</a>
+			</div>
+		</div>
+		<div id="con_one_2" class="uc_incharge"  style=" display:none;" ><!--线下支付-->
+			<div class="public_accounts out_line">
+					<div class="pay_detail">
+						<h5>兴业银行</h5>
+						<div class="info">
+						<ul>
+							<li>收款人：内蒙古蒙蓝科技有限公司</li>
+							<li class="clearfix"><div class="bank fl">开户行：</div>兴业银行股份有限公司呼和浩特新华支行</li>
+							<li>账&nbsp;&nbsp;户:592040100100116830</li>
+							<li>时&nbsp;&nbsp;间:周一至周五 8:30 - 17:30</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		<p class="reminder">为确保充值顺利，请您联系客服，并用网银（或到银行柜台）转账到该账户，我们会尽快进行确认。</p>
+		<div class="cust_ser clearfix">
+			<a href="#" onclick="callphone();">
+				<div class="portrait fl"></div>
+				<div class="cstn fl">
+					<p class="telephone">客服电话：400-800-8344</p>
+					<p class="work_time">周一至周五 8:30 - 17:30</p>
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>
+
+
+
+
+

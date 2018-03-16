@@ -1,0 +1,140 @@
+/*红包兑换*/
+.voucher_ex_block li{
+    width: 48.5%;
+    height: 8.75rem;
+    border-radius: 0.4rem;
+    background: linear-gradient(to top,#fc6d6d,#ff9191);
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    text-align: center;
+    color: #fff;
+}
+.voucher_ex_block li:nth-child(odd){
+    float: left;
+}
+.voucher_ex_block li:nth-child(even){
+    float: right;
+    margin-right: 0;
+}
+.voucher_ex_block .name{
+   font-size: 0.85rem;
+    margin-top: 0.75rem;
+}
+.value .symbol{
+    font-size: 0.8rem;
+}
+.value .num{
+    font-size: 1.25rem;
+}
+.value .cheng{
+    font-size: 0.9rem;
+    margin: 0 0.7rem;
+}
+.consume{
+    font-size: 0.6rem;
+    opacity: 0.6;
+}
+.value span{
+    display: inline-block;
+}
+.voucher_ex_block .exchange{
+    display: block;
+    box-sizing: border-box;
+    width: 4rem;
+    height: 1.5rem;
+    line-height: 1.4rem;
+    border: 2px solid #fff;
+    border-radius: 0.75rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #fff;
+    margin: 0.8rem auto 0 auto;
+
+}
+.voucher_ex_block .ex{
+    text-align:center;
+}
+.tc{
+    text-align:center;
+}
+a.gq_exchange{
+  border-radius: 5px;
+  display: inline-block;
+  width: 90%;
+  height: 40px;
+  line-height: 40px;
+  color: #5F5F5F;
+  font-size: 18px;
+  text-align: center;
+  background: #EEEEEE;
+  }
+   
+.f-input{width: 90%;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 5px;
+  padding: 0 10px;
+  border-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top:10px;
+  -webkit-appearance: none
+} 
+.exbox{ 
+	background:#fff;
+	padding:0 5px;
+}
+.exbox .t{ 
+	background:#f9f9f9; 
+	font-size:15px; 
+	font-weight:700; 
+	padding:10px;
+}
+.blank0{ 
+	height:0px; 
+	clear:both;
+ 	overflow:hidden;
+  	overflow:visible;
+}
+
+.ir_detail{
+	background:#ccc;
+	color:#474747;
+	padding: 10px;
+	border: solid 1px #ccc;
+	border-top: none;	
+	display:none;
+	position:relative;
+}
+.ir_send{
+	display:none;
+}
+.ir_send .f-input{
+	width:100px;
+	height:25px;
+	line-height:25px;
+	margin:0;
+}
+.i_send,.i_ok{
+	position:absolute;
+	top:5px; 
+	right:20px;
+	padding:5px;
+	background:#f60;
+	color:#fff;
+}
+.i_ok
+{
+	right:75px;
+}
+.i_send_1,.i_send_2{
+	display:none;
+}
+
+.i_send a{
+	color:#f60;	
+}

@@ -1,0 +1,38 @@
+{if $smarty.request.is_ajax neq 1}
+{include file="./inc/header.html"}
+<div class="page" id='uc_sheep_exchange'>
+    <!-- 兑换记录-->
+    <?php
+	$this->_var['back_url'] = wap_url("index","uc_sure_exchange#index");
+    $this->_var['back_page'] = "#uc_sure_exchange";
+    $this->_var['back_epage'] = $_REQUEST['epage']=="" ? "#uc_sure_exchange" : "#".$_REQUEST['epage'];
+    ?>
+    {include file="./inc/notfooter_title.html"}
+    <div class="content bgCo">
+        {/if}
+        <!-- 这里是页面内容区 -->
+        <div class="no_record"></div>
+        <ul>
+            <li class="fillet">
+                <div class="periods">兑换期数：原生态苏尼特羔羊170214<span class="fl"></span><span class="fr">2017-06-14 13:50</span></div>
+                <div class="gift_bottom clearfix">
+                    <div class="gift_pic fl"></div>
+                    <div class="gift_state fl">
+                        <p class="gift_names">蒙高丽亚羔羊肉礼品盒（白条羊一只，重量约15kg）</p>
+                        <div><span class="m_co fl">待发货</span><span class="fr a9">兑换1只</span></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        {if $smarty.request.is_ajax neq 1}
+        {include file="./inc/footer.html"}
+        {/if}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,103 @@
+/*主页*/
+#init{
+    background: #fff;
+    padding-bottom: 3rem;
+}
+/*下拉刷新*/
+#init .bar-tab~.pull-to-refresh-content{
+    top: -2.2rem;
+}	
+/* banner 开始 */
+.swiper-container {
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+}
+.swiper-slide {
+    background: #f1f1f1;
+    color:#000;
+    text-align: center;
+   	line-height: 150px;
+}
+/* banner 结束 */
+/*6个引导*/
+.navigation{
+    width: 100%;
+    max-width: 750px;
+    height: 7.65rem;
+    margin: 0.8rem auto;
+}
+.navigation ul{
+    width: 100%;
+    height: 100%;
+}
+.navigation li{
+    float: left;
+    box-sizing: border-box;
+    width: 33.33%;
+    height: 50%;
+    text-align: center;
+}
+.navigation li:nth-child(n+4){
+   margin-top: 7px;
+}
+.navigation li.nav-a:active{
+    border-color: rgba(148,216,230,0.8);
+    box-shadow:0 0 5px #94d8e6;
+}
+.navigation li .icon{
+	width: 2.45rem;
+    height: 2.45rem;
+     border: 1px solid #e3e3e3;
+    border-radius: 0.75rem;
+    margin: 0 auto;
+    background: url(../images/iconlist_04.png) no-repeat center 0%;
+    background-size: 2.5rem;
+}
+.navigation  .words{
+    font-size: 0.75rem;
+}
+.navigation .novice .icon{
+    background: url(../images/iconlist_04.png) no-repeat center 9.2%;
+    background-size: 2.5rem;
+}
+.navigation .purchase .icon{
+    background: url(../images/iconlist_04.png) no-repeat center 20.2%;
+    background-size: 2.5rem;
+}
+.navigation .my .icon{
+    background: url(../images/iconlist_04.png) no-repeat center 31.2%;
+    background-size: 2.5rem;
+}
+.navigation .notice .icon{
+    background: url(../images/iconlist_04.png) no-repeat center 42.2%;
+    background-size: 2.5rem;
+}
+.navigation .monitor .icon{
+    background: url(../images/iconlist_04.png) no-repeat center 52.7%;
+    background-size: 2.5rem;
+}
+.navigation .guarantee .icon{
+    background: url(../images/iconlist_04.png) no-repeat center 64%;
+    background-size: 2.5rem;
+}
+/*首页项目*/
+
+/*VIP无人定制*/
+.project-4{
+    background: url(../images/vip.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

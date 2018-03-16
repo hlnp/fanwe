@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>项目详情</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0,minimum-scale=0.5">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" type="text/css" href="./js/suimobile/sm.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./js/suimobile/sm-extend.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/merchandise_order.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome-4.2.0/css/font-awesome.min.css" />
+    <script type='text/javascript' src='./js/suimobile/zepto.min.js' charset='utf-8'></script>
+</head> 
+<body>
+<div class="page" id='exchange_pwd'>
+    <!--交易密码-->
+    <header class="bar bar-nav">
+    <a class="button button-link button-nav pull-left" onclick="" data-transition='slide-out'>
+        <span class="icon"></span>
+        <span class="fanhui">返回</span>
+    </a>
+    <!-- 兑换羊的记录-->
+    <h1 class="title pull-left">兑换记录</h1>
+    <a href="#" class="fr records" onclick="">兑换记录</a>
+</header>
+    <div class="content bgCo">
+        <!-- 这里是页面内容区 -->
+        <p class="input_tip">请输入您的交易密码：</p>
+        <input type="password"  id="trade_pwd" name="trade_pwd"/>
+        <p class="tip_word">您正在使用<span>财富牧场账户余额</span>支付</p>
+        <div class="w_b but_box_parent padding">
+            <div class="w_b_f_1 but_box">
+                <button id="submit_pwd" class="but_this press">确定</button>
+            </div>
+        </div>
+        <!-- 交易成功-->
+        <!-- 兑换成功弹出框-->
+        <div id="goodcover"></div>
+        <!-- 兑换成功-->
+        <div id="exchange_appli">
+            <div class="exch_top">
+                <div class="check"></div>
+                <p class="chenk_success">兑换成功</p>
+            </div>
+            <div class="exch_bottom a1">
+                <ul>
+					<input type="hidden" id="deal_id" name="deal_id" value="{$deal.id}"/>
+                    <li class="shName">羊群期数<span class="a9 flock">原生态苏尼特羔羊171011</span></li>
+                    <li>出栏时间<span class="time a9" style="font-size:0.8rem;">2018.3.15</span></li>
+                    <li>兑换数量<span class="a9">2件</span></li>
+                    <li>商品价格<span class="a9">780元（不包邮）</span></li>
+                </ul>
+                <p class="later a9">羊肉兑换成功，请查看"购物清单"</p>
+            </div>
+            <!-- 关闭按钮-->
+            <div class="close"><a id="closebtn" onclick=""></a></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="./js/suimobile/sm.min.js"></script>
+<script type="text/javascript" src="./js/suimobile/sm-extend.min.js"></script>
+</body>
+</html>

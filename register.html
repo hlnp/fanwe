@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html style="background: #fff;">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>注册</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0,minimum-scale=0.5">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" type="text/css" href="./css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/login.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/register.css"/>
+</head>
+<body>	
+<div class="page" id='register'>
+	<div class="content">
+	<!--注册页面-->
+		<!--输入框-->
+		<div class="main" id="mb_register">
+			<div class="titleBig">欢迎注册</div>
+			<div class="logo"></div>
+			<h3>草原上的交易专家</h3>
+			<div class="container02">
+				<div class="form_modify">
+					<span class="user"></span>
+					<span class="delect"></span>
+					<input type="text" id="user_name" name="user_name" placeholder="请输入用户名"/>
+				</div>
+				<div class="form_modify">
+					<span class="upwd"></span>
+					<span class="delect"></span>
+					<input type="password" id="user_pwd" name="user_pwd"  placeholder="请输入密码(6-18位)"/>
+				</div>
+				<div class="form_modify">
+					<span class="more"></span>
+					<span class="delect"></span>
+					<input type="password" id="user_pwd_confirm" name="user_pwd_confirm" placeholder="请再次输入密码"/>
+				</div>
+				<div class="form_modify">
+					<span class="number"></span>
+					<span class="delect"></span>
+					<input type="number" id="phone" name="phone" placeholder="请输入您的手机号"/>
+				</div>
+				<div class="form_modify">
+					<span class="code"></span>
+					<input type="button" class="ver_code" id="getcode" value="验证码" />
+					<div class="count_down">60s</div>
+					<input type="text" id="mobile_code" name="mobile_code" placeholder="请输入验证码"/>
+				</div>
+				<div class="form_modify">
+					<span class="groom"></span>
+					<span class="delect"></span>
+					<input type="text" id="referer" name="referer" value=""  placeholder="推荐人手机号/用户名(选填)"/>
+				</div>
+				<input type="submit" value="注册" name="commit" id="signup-submit"/>
+			</div>
+			<!-- 返回登陆-->
+			<div class="forget">
+				<a href="login.html">返回登录</a>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+
+
+

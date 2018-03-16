@@ -1,0 +1,33 @@
+{include file="./inc/header.html"}	
+<div class="page" id='{$data.act}'>
+
+<?php
+	$this->_var['back_url'] = wap_url("index","uc_center#index");
+	$this->_var['back_page'] = "#uc_center";
+	$this->_var['back_epage'] = $_REQUEST['epage']=="" ? "#uc_center" : "#".$_REQUEST['epage'];
+?>
+{include file="./inc/qrcode.html"}
+<div class="content">
+<!-- 这里是页面内容区 -->
+	<!-- 邀请页面样式-->
+	<div class="qrcode">
+			<div class="qrcode-top">
+				<div class="erweima">
+					<img src="./images/erweima.jpg" alt="二维码"/>
+				</div>
+			</div>
+			<div class="qrcode-bottom">
+				<div><span class="serial_number">1.</span>推荐好友注册，被邀请人将获得<span class="yellow">一分钱买羊</span>体验资格和<span class="yellow">200元</span>现金红包哦！</div>
+				<div><span class="serial_number">2.</span>好友成功购买，您将获得最高可达好友购羊交易金额<span class="yellow">2%</span>的推广返利。</div>
+				<div><span class="serial_number">3.</span>交易推广返利<span class="yellow">不限首次，长期获利</span>。</div>
+				<div class="sheep"></div>
+			</div>
+			<button id="share">朕去邀请好友</button>
+		<div id="mask"></div>
+		<div id="click_share">
+			<div class="shane_box">
+				<p>请您点击右上角按钮,发送给朋友或分享到朋友圈哦.</p>
+			</div>
+		</div>
+	</div>
+{include file="./inc/footer.html"}

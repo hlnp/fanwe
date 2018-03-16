@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>项目详情</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0,minimum-scale=0.5">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" type="text/css" href="./css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/deal.css"/>
+</head>	
+<body>
+<div class="page" id='deal'>
+	<header class="bar bar-nav">
+	    <a class="button pull-left" href="deals.html">
+	        <span class="icon"></span>
+	        <span class="fanhui">返回</span>
+	    </a>
+	    <h1 class="title pull-left">项目详情</h1>
+	</header>
+<div class="content bgCo ">
+<!-- 这里是页面内容区 -->
+	<div class="detail">
+		<div class="mainblok mainborder" >
+			<!-- 常规羊群开始-->
+			<div class="detail_tit box project-2">
+				<div class="clearfix">
+					<div class="detail_left fl">
+						<div class="unitPrice">羊单价(元)</div>
+						<div class="sheepPrice">780.<span class="sm">00</span></div>
+					</div>
+					<div class="detail_right fr">
+						<div class="unitPrice">剩余羊只（只）</div>
+						<div class="sheepPrice">150</div>
+					</div>
+				</div>
+				<div class="detail_rate">
+					<ul>
+						<li><span class="sl">150</span>只苏尼特羊</li>
+						<li><span class="sl">120</span>天联养周期</li>
+						<li style="text-align:right"><span class="sl" >16</span>%年联养回报</li>
+					</ul>
+				</div>
+			</div>
+		 </div>
+	</div>
+    <div class="projectName fillet box">
+        <ul>
+			<li class="clearfix box">
+				<span>原生态苏尼特羔羊180312</span>	   
+			</li>
+          	<li>
+                <label>项目编号</label>
+                <div class="detail">MER20180001506</div>
+            </li>
+            <li>
+                <label>开放时间</label>
+                <div class="detail">未开始/剩余15小时/售罄</div>
+            </li>
+        </ul>
+    </div>
+	<div class="operationName fillet">
+			<div class="operationList">
+				<ul>
+					<li class="bb1">
+						<label>资金余额</label>
+						<div class="list_con">
+							<span>1000000</span>
+						</div>
+					</li>
+					<li class="bb1">
+						<label>购羊数量</label>
+						<!-- 常规羊-->
+						<span class="operTip a9 fl">可手动输入</span>
+						<div class="list_con fr" id="Routine">
+							<div class="nun_choose">
+								<div id="deal-intro" class="c_number-box" max="150" >
+									<a class="c_number Minus pull-left" rel="-">-</a>
+									<!--<input id="deal_id" type="hidden" value="{$data.deal.id}"  />-->
+									<input id="buy_number" name="buy_number" type="hidden" value="780" >
+									<input type="tel" value="1" class="nuns pull-left"  autocomplete="off" name="pay_inmoney" id="pay_inmoney"/>
+									<a class="c_number Plus pull-left" rel="+">+</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class='ecv_row bb1'>
+						<label>使用红包</label>
+						<span class="operTip a9 fl">超出不返还</span>
+						<input type="hidden" name="min_loan_money" id="min_loan_money" value='10' />
+						<div class="list_con">									
+							<div class="this_red select a9 open-popup" id="ecv_id" data-popup=".popup-about" >
+								<span class="hotName">请选择红包</span>
+								<input type="hidden" value="" class="hotValue" id="ecvs_id">
+							</div>
+						</div>
+					</li>
+					<!-- 若为VIP  则显示此栏 -->
+					<li class='bb1'>
+                        <label>VIP邀请码</label>
+                        <div class="list_con">
+							<input id="risk_rank" class="ipt pull-left" type="text" placeholder="请输入邀请码" value=""/>							
+						</div>
+					</li>
+					<li class="bb1">
+						<label>支付密码</label>
+						<div class="list_con">
+							<input id="pay_inmoney_password" class="ipt pull-right" type="password" placeholder="请输入支付密码"/>
+						</div>
+					</li>
+					<li class="bb1 total_num">
+						<div class="list_con">
+							<!-- 常规，辅助-->
+							<p class="a9">共<span class="sheepNumber a1">100</span>只羊&nbsp;&nbsp;&nbsp;总计：<span class="Money a1">78000</span></p>
+						</div>
+					</li>
+					<li class="agreement">
+						<div class="fl">
+							<input type="checkbox" class="isAgree" checked id="mycheck"/><p class="hadRead">朕已阅读并同意<a class="m_co" href="uc_se_agree.html">《财富牧场服务协议》</a></p>
+						</div>
+						<div class="list_con">
+							<a href="deal_mobile.html" class="m_co survey">交易详情</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+  		</div>
+	<div class="sure">
+		<button id="pay_deal" class="green big-button project-2 shop-auxiliary"><a href="#">朕要买羊</a>
+		</button>
+		<!-- 若项目已结束 显示下面的-->
+		<div class="none"></div>
+		<a href="javascript:;" class="found m_co sh_au-ex">商铺辅助羊群说明</a>
+		<!--交易详情按钮-->
+		<a href="deal_muc_se_agreeobile.html" class="m_co" style="margin-top:0.5rem;display:block;text-align:center;">《财富牧场服务协议》
+		</a>
+	</div>
+</div>
+	<!--购买成功弹出框-->
+	<div id="goodcover"></div>
+	<div id="exchange_appli">
+		<div class="exch_top white">
+			<div class="check"></div>
+			<p class="chenk_success">购买成功</p>
+		</div>
+		<div class="exch_bottom">
+			<ul>
+				<li class="a1">交易金额<span class="Money a9"></span></li>
+				<li class="a1"><span class="fl" style="padding-left:0">羊群编号</span><span class="name a9">MER20180001506</span></li>
+				<li class="a1">购买数量<span class="sheepNumber a9">10</span><span class="a9" style="padding-left:0;">只</span></li>
+			</ul>
+			<p class="later a9">羊只正在进入您的牧场，请稍后在"我的牧场"中查看</p>
+		</div>
+		<!-- 关闭按钮-->
+		<div class="close">
+			<a href="javascript:;" id="closebtn" onclick=""></a>
+		</div>
+	</div>
+	<!-- 商铺辅助羊群群说明-->
+	<div id="code">
+		<h6 class="shop_title">商铺辅助羊群说明</h6>
+		<p class="shop_explain" >各位亲爱的牧主大大的羊只出栏后，蒙高丽亚公司代购牧主们的羊只，但从屠宰场到实体店再到消费者，一个整体的产销流程需要35天左右，所以我们增加了蒙高丽亚商铺辅助羊群。常规羊群出栏后，牧主未兑换羊肉的羊只由下一任辅助牧主接收，直到羊只真正流入终端，辅助牧主也会得到相应的回报。</p>
+		<!-- 关闭按钮-->
+		<div class="close"><a href="#" id="closebt"></a></div>
+	</div>
+	<!-- 选择红包-->
+	<div id="red_select_list" class="">
+		<ul class="red_seclet white">
+			<li class="closeList"><span class="close-popup">关闭</span></li>
+            <li class="default_red close-popup">
+                <span class="fl"><span class="red_name">注册红包</span> ￥10元</span><span class="fr">剩余：20个</span>
+                <!--<input type="hidden"  value="{$ecv.id}" class="red_xz" />-->
+            </li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>

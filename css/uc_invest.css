@@ -1,0 +1,160 @@
+/*我的牧场*/
+#uc_invest{
+    width: 100%;
+    height: 100%;
+}
+
+#uc_invest .content{
+    padding-bottom: 2.5rem;
+}
+
+#uc_invest .buttons-tab,
+#uc_mature .buttons-tab
+{
+    height: 3.25rem;
+    padding: 0.6rem 1.25rem;
+}
+#uc_invest .tab-link,
+#uc_mature .tab-link{
+    display: inline-block;
+    width:44%;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-right: 12%;
+}
+#uc_invest .tab-link:last-child,
+#uc_mature .tab-link:last-child{
+    margin-right: 0;
+}
+#uc_invest .growing,
+#uc_mature .growing{
+    color: #3db4cc;
+    border:2px solid #3db4cc ;
+}
+#uc_invest .growed,
+#uc_mature .growed{
+    color: #4bd1a4;
+    border:2px solid #4bd1a4 ;
+}
+#uc_invest .content-block li,
+#uc_mature .content-block li{
+    height: 5.25rem;
+    padding: 0.5rem 0.8rem;
+    margin-bottom: 0.5rem;
+}
+#uc_invest  .had_buy,
+#uc_mature .had_buy{
+    font-size: 0.65rem;
+}
+#uc_invest .fifty_two,
+#uc_mature .fifty_two{
+    font-size: 1.3rem;
+    width: 50%;
+    text-align: left;
+}
+#uc_invest  .soon,
+#uc_mature .soon{
+    width: 48%;
+    font-size: 0.65rem;
+	text-align:center;
+    font-weight: bold;
+}
+
+#uc_invest .purchased,
+#uc_mature .purchased{
+    width: 24%;
+    text-align:center;
+}
+#uc_invest .twenty_six,
+#uc_mature .twenty_six{
+    font-size: 0.65rem;
+}
+#uc_invest .content_mid,
+#uc_mature .content_mid{
+    line-height: 2rem;
+}
+#uc_invest .communi,
+#uc_mature .communi{
+    font-size: 0.65rem;
+    line-height: 1rem;
+}
+#uc_invest .communi span,
+#uc_mature .communi span{
+    display: inline-block;
+    width: 50%;
+    height: 1rem;
+    overflow: hidden;
+}
+#uc_invest .communi span:first-child,
+#uc_mature .communi span:first-child{
+    text-align: left;
+}
+#uc_invest .communi span:last-child,
+#uc_mature .communi span:last-child{
+    text-align: right;
+}
+#uc_invest .cycle,
+#uc_mature .cycle{
+    text-align: center;
+}
+/*交易统计弹出框*/
+#uc_invest .total_top{
+    height: 7.75rem;
+    background: linear-gradient(to right,#41d1a1,#6de3a4);
+    color: #fff;
+    text-align:center;
+    border-radius: 0.4rem 0.4rem 0 0 ;
+}
+#uc_invest .collect_total{
+    height: 5rem;
+}
+.total_top .thirty_six{
+    font-size: 0.9rem;
+    padding: 0.4rem 0;
+}
+.total_top h6{
+    font-size: 1.25rem;
+    line-height: 1.3rem;
+    font-weight: normal;
+}
+.total_top .twenty_six{
+    font-size: 0.65rem;
+}
+.collect{
+    height: 2.75rem;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    font-size: 0.65rem;
+    padding-top:0.2rem ;
+}
+.collect div.fl{
+    width: 50%;
+    margin: 0 auto;
+}
+.collect .integer{
+    font-size:0.85rem ;
+}
+.collect .decimal{
+    font-size: 0.65rem;
+}
+#uc_invest .total_bottom{
+    padding: 0 1.5rem;
+}
+#uc_invest .total_bottom li{
+    height: 1.75rem;
+    line-height: 1.75rem;
+    border-bottom: 1px solid #ededed;
+}
+#uc_invest .total_bottom li:last-child{
+    border-bottom: 0;
+    height: 2rem;
+}
+
+
+#uc_mature .no_sheep{
+    background: url(../images/no_record/no.png) no-repeat center center;
+    background-size: 100%;
+}
+

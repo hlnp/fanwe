@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>启动页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0,minimum-scale=0.5">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" type="text/css" href="./css/public.css"/>
+</head>
+<body>
+<style>
+img{width:100%;}
+.wz{margin-left:23%;margin-top:-30%;background:rgba(256,256,256,0.6);}
+</style>
+<div>
+	<img src="http://www.caifumuchang.com/wap/img/inst.jpg" alt="" />
+</div>
+<div class="count-down"></div>
+<div class="wz">
+	<a href="index.php?ctl=init" style="color:#000;">
+		<input type="button" value="进入牧场"/>
+	</a>
+</div>
+<script>
+	var count = 4;
+	function time(){
+		count--;
+		if(count <=-1){
+			count =0;
+			location="index.php?ctl=init";
+			return;
+		}
+		$(".count-down").html(count+"s");
+		setTimeout(time,1000);
+		
+	}
+	time();
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+
+/*修改支付密码按钮颜色*/
+#pay-getcode{
+	background: #4bd1a4;
+}
+#pay-submit{
+	background: linear-gradient(to right,#41d1a1,#6de3a4);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  .uc_c_middle .uc_c_middle_content_list li:before {
+    -webkit-transform: scaleY(0.5);
+            transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+  .uc_c_middle .uc_c_middle_content_list li:before {
+    -webkit-transform: scaleY(0.33);
+            transform: scaleY(0.33);
+  }
+}
+.uc_center .out_login{
+	display:block;
+	width:15rem; 
+	height:2.25rem; 
+	line-height:2.25rem;
+	background:#fff;
+	color:#1a1a1f; 
+	font-size:1rem;
+	text-align:center;
+	border:1px solid #ededed; 
+	border-radius:1.125rem;
+	position:absolute;
+	bottom: 12rem;
+	left:50%;
+	margin-left: -7.5rem;
+}

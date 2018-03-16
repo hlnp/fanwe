@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{$data.program_title}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0,minimum-scale=0.5">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<div id='wx_pic' style='margin:0 auto;display:none;'>
+		<img src='./images/webwxgetmsgimg.jpg'/>
+	</div>
+    <?php
+   	 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/js/suimobile/sm.min.css";
+   	 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/js/suimobile/sm-extend.min.css";
+			$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/public.css";
+			$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/init.css";
+    	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/deals.css";   
+			$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/deal.css";	
+			$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/css3-3d-circle-progress.css";
+    	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/lynn.css";    	
+    	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/integral_mall.css";
+    	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/goods_information.css";
+			$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/deal_mobile.css";
+			$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/pay_order_index.css";	
+			$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/search.css";
+			$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_add_bank.css";	
+			$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_bank.css";	
+			$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_carry_money_log.css";
+			$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_save_carry.css";	
+			$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_center.css";
+			$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_collect.css	";
+			$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_incharge.css";	
+			$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_voucher.css";
+			$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_account_log.css";	
+			$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/login.css";	
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/merchandise_order.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_novice_guide.css"; 
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/deals.css";	
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_fficial_announ.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_video.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_safety_guarantee.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/found.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_invest.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_mycontract.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/invitation_register.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/goods_address.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_address.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_goods_order.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_setting.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/article_list.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/show_article.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/register.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_invest_detail.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_exchange_rule.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_sure_exchange.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_sheep_exchange.css"; 
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/my_integral.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_incharge_log.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_rw_rule.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_carry_money.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/my_commission.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_commission_rule.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_voucher_exchange.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_credit.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/save_reset_pwd.css"; 
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/reset_pay_pwd.css";
+		 	$this->_var['parent_pagecss'][] = $this->_var['TMPL_REAL']."/css/uc_project_survey.css";
+	?>
+	<link rel="stylesheet" type="text/css" href="{function name="parse_css" v="$parent_pagecss"}" />
+  <script type='text/javascript' src='./js/suimobile/zepto.min.js' charset='utf-8'></script>
+  <script type='text/javascript' src='./js/fastclick.js' charset='utf-8'></script>
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome-4.2.0/css/font-awesome.min.css" />
+    <script type="text/javascript">
+		var APP_ROOT = '{$APP_ROOT}';
+		var WAP_PATH = '{$WAP_ROOT}';
+		var APP_ROOT_ORA = '{$PC_URL}';
+		var SITE_DOMAIN = "{$data.site_domain}";
+		var isapp = "{function name="intval" f="$smarty.request.app"}"
+		var __HASH_KEY__ = "{insert name="get_hash_key"}";
+		 $.config = {
+		    swipePanelOnlyClose: true
+		  }
+		  
+		  if ('addEventListener' in document) {
+			    document.addEventListener('DOMContentLoaded', function() {
+			        FastClick.attach(document.body);
+			    }, false);
+			};
+	</script> 
+<!-- caifumuchang.com Baidu tongji analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?563a3870c1aa0cddb9611dd60e55a0b3";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>	
+<body>

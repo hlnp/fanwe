@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>羊群详情</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0,minimum-scale=0.5">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" type="text/css" href="./css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/uc_invest_detail.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/uc_invest.css"/>
+</head>
+<body>
+<div class="page" id='uc_invest_detail'>
+	<header class="bar bar-nav">
+        <a class="button pull-left" href="uc_invest.html">
+            <span class="icon"></span>
+            <span class="fanhui">返回</span>
+        </a>
+        <h1 class="title pull-left">羊群详情</h1>
+    </header>
+    <!-- 我的牧场-->
+    <div class="content bgCo">
+      <!-- 这里是页面内容区 -->
+        <div class="fillet mysheep">
+            <h5>5</h5>
+            <p class="my_sheep">我的羊只</p>
+            <p class="grow">
+				<span class="ing">成长中：3只</span>
+				<span>已出栏：2只</span>
+			</p>
+        </div>
+       <div class="fillet live-box">
+            <p class="master m_co">亲爱滴牧主，您拥有羊只已经</p>
+            <p class="day m_co">50天</p>
+            <div class="shine"></div>
+            <div class="declaration">
+                <p class="manifesto a9">欢迎主人来牧场看我吖,戳我有惊喜的哦,么么哒，小手快戳过来。</p>
+                <div class="look"></div>
+            </div>
+        </div>
+        <div class="fillet inform">
+            <div class="sheep_num a9">
+				<span class="fl">原生态苏尼特羔羊180301</span>
+				<span class="fr">我的羊只：2只</span>
+			</div>
+            <div class="a9">
+				<span class="fl">已收本金：￥17,940.00</span>
+				<span class="fr">已收回报：￥956.80</span>
+				<span class="fl">待收本金：￥956.80</span>
+				<span class="fr">待收回报：￥956.80</span>
+			</div>
+			<!-- 成长中调用-->
+			<button class="convert press unclicked">出栏后可兑换羊肉</button>
+			<!-- 已出栏调用-->
+			<button class="convert press J_left_time"><a href="uc_sure_exchange.html">兑换羊肉</a></button>
+			<!--已经兑换过-->	
+			<button class="convert press unclicked">您已兑换过</button>
+			<a class="exchange_rule m_co" href="uc_exchange_rule.html">查看兑换规则</div>
+        </div>
+        <!--时间函数-->
+	<!--<script type="text/javascript">
+		var nowData=new Date();
+		var expireDate=$("#expireDate").val();
+		var yearCur = nowData.getFullYear();
+		var monCur = nowData.getMonth() + 1;
+		monCur = monCur<10?"0"+monCur:monCur;
+		var dayCur = nowData.getDate();
+		dayCur = dayCur<10?"0"+dayCur:dayCur;
+		var hCur = nowData.getHours();
+		var mCur = nowData.getMinutes();
+		var sCur = nowData.getSeconds();
+		expireDate=expireDate.split("-"); 
+		var nums = [ ];
+		for (var i=0 ; i< expireDate.length ; i++)
+		{
+			nums.push(parseInt(expireDate[i]));
+		}
+		var year = nums[0];
+		var mouth = nums[1];
+		mouth = mouth<10?"0"+mouth:mouth;
+		mouth=mouth.toString();
+		var day = nums[2];
+		day = day<10?"0"+day:day;
+		day=day.toString();
+		var expire = parseInt(year+mouth+day );
+		var news=parseInt(yearCur.toString()+monCur.toString()+dayCur.toString());
+		console.log(expire);
+		console.log(news);
+		if(expire<news){
+		$(".J_left_time").html("兑换时间已过").addClass("unclicked").attr("disabled",true);
+		}
+	</script>-->

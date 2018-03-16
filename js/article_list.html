@@ -1,0 +1,54 @@
+{if $smarty.request.is_ajax neq 1}
+{include file="./inc/header.html"}	
+<div class="page" id='article_list'>
+<?php
+	$this->_var['back_url'] = wap_url("index","init#index");
+	$this->_var['back_page'] = "#init";
+	$this->_var['back_epage'] = $_REQUEST['epage']=="" ? "#init" : "#".$_REQUEST['epage'];
+?>
+{include file="./inc/notfooter_title.html"}
+<div class="article_list-box content infinite-scroll bgCo"  data-distance=""  all_page="">
+<!-- 这里是页面内容区 -->
+<!--文章列表-->
+	<div class="title_list invest list-block" style="padding:0;margin:0;">
+{/if}
+		<ul class="title_icon" style="background:#fff;">
+			<li style="padding:0 0.5rem;height:3rem;line-height:3rem;">
+				<a href="#" onclick="RouterURL('{wap_url a="index" r="show_article"}','#show_article',2);" class="item-link item-content">
+					<div class="item-inner w_b">
+						<div class="item-title w_b_f_1">为什么羊群很快就卖完了？</div>
+						<span class="entered "></span>
+					</div>
+				</a>
+			</li>
+			<li style="padding:0 0.5rem;height:3rem;line-height:3rem;">
+				<a href="#" onclick="RouterURL('{wap_url a="index" r="show_article"}','#show_article',2);" class="item-link item-content">
+					<div class="item-inner w_b">
+						<div class="item-title w_b_f_1">为什么羊群很快就卖完了？</div>
+						<span class="entered "></span>
+					</div>
+				</a>
+			</li>
+			<li style="padding:0 0.5rem;height:3rem;line-height:3rem;">
+				<a href="#" onclick="RouterURL('{wap_url a="index" r="show_article"}','#show_article',2);" class="item-link item-content">
+					<div class="item-inner w_b">
+						<div class="item-title w_b_f_1">为什么羊群很快就卖完了？</div>
+						<span class="entered "></span>
+					</div>
+				</a>
+			</li>
+		</ul>
+{if $smarty.request.is_ajax neq 1}
+	</div>
+</div>
+ <!-- 加载提示符 -->
+<div class="infinite-scroll-preloader">
+  <div class="preloader">
+  </div>
+</div>
+{include file="./inc/footer.html"}
+{/if}
+
+
+
+

@@ -1,0 +1,33 @@
+{if $smarty.request.is_ajax neq 1}
+{include file="./inc/header.html"}
+<div class="page" id='uc_exchange_rule'>
+    <!-- 兑换规则-->
+    <?php
+	$this->_var['back_url'] = wap_url("index","uc_invest#index");
+    $this->_var['back_page'] = "#uc_invest";
+    $this->_var['back_epage'] = $_REQUEST['epage']=="" ? "#uc_invest" : "#".$_REQUEST['epage'];
+    ?>
+    {include file="./inc/notfooter_title.html"}
+    <div class="content">
+        {/if}
+        <!-- 这里是页面内容区 -->
+        <h6>羊只兑换规则</h6>
+        <p class="time a9">2017-02-17</p>
+        <p class="first_title titles">羊只兑换：</p>
+        <p class="content_detail">您购买的羊只出栏后，您可以选择兑换蒙高丽亚苏尼特羔羊肉礼品盒（白条羊，重约15kg，每期羊群到期后仅限兑换一次，请您务必确认兑换数量），兑换前请先联系客服（确定兑换后，兑换申请不可撤销，请您务必确认是否进行兑换）。</p>
+        <p class="titles">兑换方法：</p>
+        <p class="content_detail">您仅可在羊群出栏后的48小时内点击已结束放养的羊群，选择兑换羔羊肉礼盒（数量≤认购羊只数目）。</p>
+        <p class="titles">快递邮资：</p>
+        <p class="content_detail">快递默认选择顺丰冷链，邮费到付。</p>
+        {if $smarty.request.is_ajax neq 1}
+        {include file="./inc/footer.html"}
+        {/if}
+
+
+
+
+
+
+
+
+

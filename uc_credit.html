@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>身份认证</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0,minimum-scale=0.5">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" type="text/css" href="./css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/uc_credit.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/.css"/>
+</head>
+<body>
+<div class="page" id='uc_credit'>
+    <header class="bar bar-nav">
+        <a href="uc_setting.html" class="button pull-left">
+            <span class="icon"></span>
+            <span class="fanhui">返回</span>
+        </a>
+        <h1 class="title pull-left">身份认证</h1>
+    </header>
+    <div class="content">
+    <!-- 这里是页面内容区 -->
+    <!--身份认证页-->
+        <div class="detail bgCo">
+           <div class="mainblok mainborder fillet">
+                <form id="form_credit" enctype="multipart/form-data" action="uc_credit_save" method="post">
+                    <div class="detail_list new_version">
+                       <ul>
+                            <li>
+                                <label><!--法人姓名-->真实姓名：</label>
+                                <div class="list_con new_version">
+                                    <input type="text" name="real_name" id="real_name" value="" class="textbox ui_width" placeholder="请输入您的真实姓名" autocomplete="off"/>
+                                </div>
+                                </li>
+                           <li class="reset_pay_pwd">
+                                <label><!--法人-->身份证号：</label>
+                                <div class="list_con new_version">
+                                <input id="idno" name="idno" class="ui-button ui_width" value="" type="text" placeholder="请输入您的身份证号">
+                                </div>
+                            </li>
+                       </ul>
+                    </div>
+                 </form>
+            </div>
+            <p class="tip_tip">请您务必进行身份认证，认证后才可进行添加银行卡、提现等操作。账户资金只能提现到与您真实姓名对应的储蓄卡中哦∩_∩。</p>
+            <div class="w_b">
+                <div class="w_b_f_1 but_box">
+                    <div id="submitt"  class="but_this changed confirm">提交审核</div>
+            	</div>
+            </div>
+        </div>		
+     </div>
+</div>
+</body>
+</html>
+
+
+
+

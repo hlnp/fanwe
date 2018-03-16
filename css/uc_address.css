@@ -1,0 +1,104 @@
+/*添加收货地址*/
+#uc_address .list-block{
+	font-size: 0.9rem;
+	border: 1px solid #e0e0e0;
+	border-radius: 0.4rem;
+	padding:0 1rem;
+	width: 100%;
+	margin: 0;
+}
+#uc_address li.project_list{
+	height: 3rem;
+	line-height: 3rem;
+}
+#uc_address li.province .item-inner{
+	height: 3rem;
+	padding: 0.775rem 0;
+}
+.list-block .item-title.label {
+	text-align: justify;
+}
+
+.detail .item-title.label{
+	padding-top: 0.7rem;
+}
+#uc_address .delect{
+	top: 0.7rem;
+	display: none;
+}
+#deal_mobile .list-block, #transfer_mobile .list-block {
+	margin-top:0!important;
+}
+.address_submit{
+	width: 15rem;
+	margin: 0 auto;
+}
+.default_number,.href_second{
+	color: #d9d9d9;
+	font-size: 0.75rem;
+}
+/*三级联动*/
+#city{
+	padding-left: 0.25rem;
+}
+#city select{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 3.45rem;
+	height: 1.45rem;
+	line-height: 1.45rem;
+	border: 1px solid #ededed;
+	margin-right: 0.3rem;
+	font-size: 0.75rem;
+	padding-left: 0.15rem;
+	padding-right: 0.9rem;
+	background: url(../images/iconlist_02.png) no-repeat 2.4rem 94%;
+	background-size: 1.3rem;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+}
+#city select option{
+	color: #1a1a1f;
+}
+#city select.modifyCity{
+	border: none;!important;
+	background-position: 2.4rem 95%;
+}
+.default_region{
+	color: #d9d9d9;
+}
+#city select:last-child{
+	margin-right: 0;
+}
+#city .down{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width:0.75rem;
+	height: 0.75rem;
+	background: url(../images/iconlist_02.png) no-repeat 0 90%;
+	background-size: cover;
+	margin:0;
+}
+.list-block .item-box {
+    position: relative;
+    padding-top: .4rem;
+    padding-bottom: .35rem;
+    min-height: 2rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-right:0.75rem;
+    margin-left:0.75rem;
+    font-size: 0.70rem;
+}

@@ -1,0 +1,181 @@
+/*充值*/
+/*头部右侧字体*/
+.record{
+	display: block;
+	font-size: 0.85rem;
+	z-index: 20;
+}
+.figure{
+	position:relative;
+}
+.figure span{
+	position:absolute;
+	left:0.4rem;
+	top: 0.14rem;
+	font-size:1.8rem;
+}
+.figure input{
+	height: 2.95rem;
+	border:1px solid #ededed;
+	width:100%;
+	font-size:1.2rem;
+	border-radius: 0.4rem;
+	padding-left: 2.9rem;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.figure input::-webkit-input-placeholder{
+	font-size: 1.2rem;
+	color:#e5e5e5;
+	font-weight: normal;
+}
+.spend_tip{
+	color: #a9a9a9;
+	font-size: 0.75rem;
+	height: 1.75rem;
+	line-height: 1.3rem;
+	padding: 0 0.25rem 0 1rem;
+}
+.bank_list.in_line.zfb{
+	height:auto;
+}
+.bank_list li{
+	height: 3rem;
+	line-height: 3rem;
+	background: #fff;
+	border: 1px solid #ededed;
+	border-radius: 0.4rem;
+	padding-left:0.8rem;
+	padding-right:2.75rem;
+	position:relative;
+	overflow:hidden;
+}
+
+.inline_pay_img_show{
+	float:left;
+	overflow:hidden;
+	width:1.8rem;
+	height:1.8rem;
+	margin:0.6rem 0  0 0;
+}
+.inline_pay_name{
+	font-size:0.9rem;
+	padding-left:0.75rem;
+	float:left;
+}
+
+#on_incharge_done{
+	bottom: 4rem;
+}
+.rule{
+	color: #3db4cc;
+	font-size: 0.9rem;
+	text-align: center;
+	position:fixed;
+	bottom: 2rem;
+	left: 50%;
+	margin-left: -2.8rem;
+}
+
+
+#uc_incharge .content{
+    padding: 0 0.5rem;
+}
+.Menubox{
+	padding:0.75rem 0;
+}
+.Menubox ul{
+	width: 13.6rem;
+    height: 2rem;
+	display: block;
+    margin: 0 auto;
+}
+.Menubox ul li{
+	display: inline-block;
+    box-sizing: border-box;
+	width: 6rem;
+    line-height: 2rem;
+	float: left;
+	text-align: center;
+}
+.Menubox ul li.payment_method{
+	float: left;
+	text-align: center;
+	font-size:0.9rem;
+    border-radius: 1rem;
+	color: #3db4cc;
+    border: 1px solid #3db4cc;
+	background: #f0f0f3;
+}
+.Menubox ul li:first-child{
+    margin-right: 1.5rem;
+}
+.Menubox ul li.online{
+	color: #fff;
+	background: linear-gradient(to right,#3db4cc,#6fd6ea);
+	border:0;
+}
+/*对公账户*/
+.public_accounts{
+	padding:0.1rem 1.75rem 1rem 1.75rem;
+	color: #fff;
+	background: linear-gradient(to right,#3db4cc,#6fd6ea);
+	border-radius: 0.4rem;
+}
+.pay_detail h5{
+	font-size:1.15rem;
+	line-height:2.25rem;
+	text-align: center;
+	font-weight: normal;
+	color: #fff;
+}
+.pay_detail .info li{
+	font-size:0.9rem;
+	line-height:1.3rem;
+	letter-spacing: 1px;
+}
+.pay_detail .info li div.bank{
+	height: 2.6rem;
+}
+.cust_ser{
+	border: 1px solid #ededed;
+	border-radius: 0.4rem;
+	padding: 1.1rem 1.5rem;
+	background: #fff;
+	margin-top: 0.4rem;
+}
+.cust_ser a{
+	display:block;
+	height:2.5rem;
+}
+.portrait{
+	width: 2.5rem;
+	height: 2.5rem;
+	background: url(../images/kefu.jpg) no-repeat  center center;
+	background-size: 2.4rem;
+	margin-right: 0.9rem;
+}
+.telephone{
+	font-size: 0.9rem;
+	color: #3db4cc;
+}
+.work_time{
+	font-size: 0.75rem;
+	color: #a9a9a9;
+}
+
+/*橙色按钮css---本页定位*/
+.mt.dw{
+	position:absolute;
+	right: 0.75rem;
+    top: 0.9rem;
+}
+/*操作时间定位*/
+.oper_time{
+	position: absolute;
+	bottom: 0.5rem;
+	right:0.75rem;
+	font-size: 0.7rem;
+}
+

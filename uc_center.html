@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>个人中心</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0,minimum-scale=0.5">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" type="text/css" href="./css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/uc_center.css"/>
+</head>
+<body>
+<div class="page" id='uc_center'>
+	<!-- 个人中心-->
+	<div class="content bgCo">
+	<!-- 这里是页面内容区 -->
+	<div class="uc_center">
+		<div class="uc_c_top">
+			<div class="uc_c_top_conten clearfix">
+					<div class="uc_img_bor_small fl">
+						<img src="./images/touxiang.png" id="picDisplay"/>
+						<form id="uploadForm" enctype="multipart/form-data" method="post" action=""></form>
+					</div>
+					<div class="fl">
+					<div class="user_name">侯磊</div>
+					<div class="authened">未认证<!--已认证    审核失败--></div>
+					</div>
+					<div class="integral fr">
+						<!--已签到-->
+						<!--<a class="sign">已签到</a>-->
+						<a class="sign_success" onclick="user_sign();">签到赚积分</a>
+						<a href="my_integral.html">我的积分</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<p class="authen_tip a9 clearfix"><span class="fl">身份认证后才可购买羊只、提现哦。</span><span class="fr">（设置-身份认证）</span></p>
+		<div class="account fillet">
+			<p class="detailed"><a href= "uc_account_log.html" class="m_co">账户明细</a></p>
+			<p class="account-balance">￥16379.99</p>
+			<p class="acc-bal a9">账户余额</p>
+			<div class="money_operation">
+				<ul>
+					<li class="incharge">
+						<a href="uc_incharge.html">
+							<div class="icon fl"></div><p class="a1 fl">充值</p>
+						</a>
+					</li>
+					<li class="carry">
+						<a href="uc_bank.html">
+							<div class="icon fl"></div><p class="a1 fl">提现</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="uc_c_middle fillet">
+			<ul>
+				<!-- 我的合同-->
+				<li class="contract">
+					<a href="uc_mycontract.html">
+						<div class="icon fl"></div>
+						<p class="fl">我的合同</p>
+						<span class="entered fr"></span>
+					</a>
+				</li>
+				<!-- 我的邀请-->
+				<li class="invitation">
+					<a href="invitation_register.html">
+						<div class="icon fl"></div>
+						<p class="fl">我的邀请</p>
+						<span class="entered fr"></span>
+					</a>
+				</li>
+				<li class="dingdan">
+					<a href="merchandise_order.html">
+						<div class="icon fl"></div>
+						<p class="fl">购物清单</p>
+						<span class="entered fr"></span>
+					</a>
+				</li>
+				<li class="voucher">
+					<a href="uc_voucher.html">
+						<div class="icon fl"></div>
+						<p class="fl">现金红包</p>
+						<span class="entered fr"></span>
+					</a>
+				</li>
+				<!-- 设置地址-->
+				<li class="address">
+					<a href="goods_address.html">
+						<div class="icon fl"></div>
+						<p class="fl">收货地址</p>
+						<span class="entered fr"></span>
+					</a>
+				</li>
+				<li class="integral">
+					<a href="integral_mall.html">
+						<div class="icon fl"></div>
+						<p class="fl">积分兑换</p>
+						<span class="entered fr"></span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="uc_c_bottom fillet">
+			<ul>
+				<li class="setting">
+					<a href="uc_setting.html">
+						<div class="icon fl"></div>
+						<p class="fl">设置</p>
+						<span class="entered fr"></span>
+					</a>
+				</li>
+				<li class="help">
+					<a href="article_list.html">
+						<div class="icon fl"></div>
+						<p class="fl">帮助</p>
+						<span class="entered fr"></span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<p class="official_record a9" style="text-align:center" >© 2016 内蒙古蒙蓝科技有限公司 All rights reserved <br/>蒙ICP备15002147号-2</p>	
+	</div>
+</div>
+<nav class="bar bar-tab">
+	<a class="pasture tab-item" href="init.html">
+		<i class="icon"></i>
+		<span class="tab-label">牧场</span>
+	</a>
+	<a class="found tab-item " href="found.html">
+		<i class="icon"></i>
+		<span class="tab-label">发现</span>
+	</a>
+	<a class="my tab-item active" href="uc_center.html">
+		<i class="icon"></i>
+		<span class="tab-label">我的</span>
+	 </a>	    
+</nav>	
+</body>
+</html>
+
+
+

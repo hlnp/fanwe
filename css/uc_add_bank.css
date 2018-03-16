@@ -1,0 +1,149 @@
+/*添加银行卡*/
+.uc_add_bank{
+	padding: 0 0.5rem;
+}
+.identity_tip{
+	height: 1.6rem;
+	line-height: 1.6rem;
+	font-size: 0.8rem;
+	padding:0 0.3rem;
+}
+#uc_bank_list .identity_tip{
+	margin-top: -0.5rem;
+}
+.bank_bg{
+	padding-left:1rem;
+	padding-right:1rem;
+	margin-top:12px;
+}
+.dl{
+	box-sizing: border-box;
+	border-bottom:1px solid #ededed;
+	height:3rem;
+	padding:0.4rem 0 0.4rem 4.25rem;
+	position:relative;
+	font-size: 0.9rem;
+}
+.dl:last-child{
+	border:none;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	padding:0 0 0 4.25rem;
+}
+.dl .name{
+	position:absolute;
+	left:0;
+	top:0;
+	line-height:3rem;
+	font-size:0.9rem;
+	text-align: justify;
+}
+.dl:last-child .name{
+	line-height:2.5rem;
+}
+.dl .info input{
+	width:100%;
+	height:2rem;
+	line-height:0.9rem;
+	font-size:0.9rem;
+}
+.dl:last-child .info{
+	line-height: 2.5rem;
+}
+.bank_list{
+	position:relative;
+	width:100%;
+	height:2.2rem;
+	line-height: 2.2rem;
+	z-index:5;
+}
+.bank_list .this_bank{
+	position:absolute ;
+	left:0;
+	top:0;
+	line-height:2.2rem;
+
+}
+.bank_list .seclet_but{
+	position:absolute ;
+	right:0px;
+	top:0.3rem;
+	width: 1.75rem;
+	height:1.4rem;
+	background: url(../images/iconlist_02.png) no-repeat 0 93.6%;
+	background-size: 100%;
+}
+.bank_seclet{
+	font-size:0.8rem;
+}
+#bank_select_list li,#region_select_list li{
+	height:2.5rem;
+	line-height:2.5rem;
+	padding:0 15px;
+	width:100%;
+	border-bottom:1px solid #ededed;
+	border-radius: 0;
+	position: relative;
+	background:#fff;
+}
+
+.region_select .info{
+	padding: 0.3rem 0;
+}
+.region_select .info select{
+	font-size: 0.75rem;
+	width: 32%;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	margin-right:2%;
+	border: 0;
+	border: 1px solid #ededed;
+}
+.region_select .info select:last-child{
+	margin-right: 0;
+}
+.region_select .info select option{
+	color: #1a1a1f;
+}
+#uc_add_bank .popup{
+	top: 0;
+}
+#bank_select_list .closeList,#region_select_list .closeList{
+	background: #3db4cc;
+	color: #fff;
+}
+ .closeList{
+	background: #3db4cc;
+	color: #fff;
+	border: 0;
+	height:2.5rem;
+	line-height:2.5rem;
+	padding:0 15px;
+	width:100%;
+}
+/*提现记录*/
+.trans_total span{
+	margin-right: 0.5rem;
+}
+.container03{
+	padding:1rem 0.75rem 1rem 1rem;
+	border-bottom: 1px solid #ededed;
+}
+.container03 .bank_icon{
+	width: 1.85rem;
+	height: 1.85rem;
+	margin-right: 0.5rem;
+	margin-top: 0.2rem;
+}
+.moneys{
+	text-align: right;
+}
+.bank_card,.money_value{
+	font-size: 0.8rem;
+}
+.money_value{
+	font-weight: bold;
+}
+.time,.catch_width{
+	font-size: 0.7rem;
+}

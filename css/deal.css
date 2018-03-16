@@ -1,0 +1,292 @@
+/*项目详情*/
+#deal .mainblok{
+	margin-top: 0;
+}
+.detail_tit{
+	height: 5.25rem;
+	border-radius: 0.4rem;
+	padding:0.3rem 0.95rem 0 0.95rem;
+	color: #fff;
+}
+.detail_left{
+	text-align: left;
+}
+.detail_right{
+	text-align: center;
+}
+.unitPrice{
+	font-size: 0.65rem;
+}
+.sheepPrice{
+	font-size: 1.8rem;
+	line-height: 2.2rem;
+}
+.sheepPrice .sm{
+	font-size: 1.3rem;
+}
+.detail_rate{
+	height: 1.7rem;
+	line-height: 1.7rem;
+	border-top: 1px solid rgba(255,255,255,0.4);
+	overflow: hidden;
+}
+.detail_rate li{
+	float: left;
+	width: 33.33%;
+	text-align: left;
+	font-size: 0.6rem;
+	overflow: hidden;
+}
+.detail_rate .sl{
+	font-size: 0.8rem;
+}
+.projectName{
+	padding:0 0.5rem;
+	margin-top:0.5rem;
+}
+.operationName{
+	margin-top:0.5rem;
+}
+.projectName li{
+	height: 1.75rem;
+	line-height: 1.75rem;
+	border-bottom: 1px solid #ededed;
+	font-size: 0.7rem;
+	color: #a9a9a9;
+}
+.projectName li:last-child{
+	border-bottom: 0;
+}
+.projectName li label{
+	float: left;
+	width:3.5rem;
+	height: 1.75rem;
+	line-height: 1.75rem;
+}
+.projectName li .detail{
+	margin-left: 3.5rem;
+}
+.operationList{
+	padding:0 0.5rem;
+}
+.operationList li{
+	height:2.5rem;
+	line-height: 2.5rem;
+	position: relative;
+}
+.operationList li:first-child{
+	height: 2rem;
+	line-height: 2rem;
+}
+.operationList li:last-child{
+	border-bottom: 0;
+}
+.operationList li.source{
+	height: 1.5rem;
+	line-height: 1.5rem;
+	color:#a9a9a9;
+	font-size: 0.75rem;
+}
+.tyj{
+	width: 100%;
+}
+.tyj ul li.sup{
+	margin-top: 0.2rem;
+}
+.operationList li label{
+	float: left;
+}
+.operationList li .list_con{
+	float: right;
+	height: 100%;
+}
+.operationList li .list_con .nuns{
+	font-size: 0.85rem;
+}
+.list_con em{
+	font-size: 0.65rem;
+}
+.operationList li .operTip{
+	font-size: 0.7rem;
+	margin-left: 0.7rem;
+}
+.operationList li .nun_choose{
+	width: 5.75rem;
+}
+.operationList li #pay_inmoney,.operationList li #shop_inmoney{
+	width: 2.5rem;
+	height: 2.5rem;
+	text-align: center;
+}
+.ecv_row .select{
+	width: 6rem;
+}
+.operationList li .ipt{
+	width:6.5rem;
+	height: 2.5rem;
+	font-size: 0.8rem;
+	text-align:left;
+}
+.survey{
+	font-size: 0.75rem;
+}
+.operationList li.agreement{
+	height: 1.75rem;
+	line-height: 1.75rem;
+	font-size: 0.6rem;
+	position: relative;
+}
+.operationList li.total_num{
+	height: 1.75rem;
+	line-height: 1.75rem;
+}
+.hadRead{
+	padding-left: 0.8rem;
+}
+.isAgree{
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius:3px;
+	border: 1px solid #a9a9a9;
+	position: absolute;
+	top: 50%;
+	margin-top: -0.3rem;
+	left: 0;
+}
+input.isAgree:checked{
+	border: 1px solid #3db4cc;
+	background: url(../images/agree.png) no-repeat center center;
+	background-size: cover;
+}
+.disabled{
+	background: #d9d9d9!important;
+}
+.trade_detail{
+	font-size: 0.8rem;
+}
+#deal .big-button{
+	bottom: 0.4rem;
+}
+.popup-overlay{
+	display: none;
+}
+.popup{
+	background:#f0f0f3;
+}
+#wantTo{
+	width: 100%;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	position:fixed;
+	bottom:0;
+	left:0;
+	background:#fff;
+}
+#uc_learn_deal_invest .sure{
+	border-top:1px solid #ededed;
+	border-bottom:1px solid #ededed;
+}
+#wantTo .left{
+	width: 65%;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	padding-left: 2rem;
+	font-size: 0.7rem;
+	border-top:1px solid  #ededed;
+	border-bottom:1px solid  #ededed;
+	background: #fff;
+}
+#wantTo #pay_deal{
+	width: 35%;
+	height: 2.5rem;
+	color: #fff;
+	background: linear-gradient(to right,#41d1a1,#6de3a4);
+}
+/*选择红包*/
+.red_seclet li{
+	height: 2.5rem;
+	line-height: 2.5rem;
+	font-size: 0.8rem;
+	border-bottom: 1px solid #ededed;
+	padding: 0 2rem 0 0.8rem;
+	position: relative;
+}
+.red_seclet li input[type=radio]{
+	width: 100%;
+	height: 2.5rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1001;
+}
+.red_seclet li input[type=radio]:checked{
+	background: url(../images/bank_default.jpg) no-repeat 95% center;
+	background-size:1rem 0.65rem;
+}
+#bank_select_list{
+	background: #fff;
+}
+/*vip*/
+.private{
+	text-align: right;
+}
+/*新手*/
+.operationList li .experience_gold{
+	width: 6rem;
+	height: 1.7rem;
+	line-height: 1.7rem;
+	background: #f5f5f5;
+	margin-top: 0.4rem;
+	text-align: center;
+	font-size: 0.7rem;
+}
+/*项目已结束*/
+.none{
+	width: 8rem;
+	height: 7.5rem;
+	margin:1.5rem auto;
+	background: url(../images/no_record/none.jpg) no-repeat center center;
+	background-size: cover;
+}
+#deal #trade_detail{
+	margin-top:2.5rem;
+}
+
+
+.money h1{
+	display: inline-block;
+	font-size: 38px;
+}
+.money h2{
+	display: inline-block;
+	font-size: 22px;
+}
+.nun_choose .Plus{
+	 border-radius:0px 3px 3px 0px;
+}
+
+/*商铺辅助羊群弹出框说明*/
+#deal #code{
+	padding: 0 1.3rem;
+}
+.shop_title{
+	font-size: 0.9rem;
+	line-height: 1.05rem;
+	text-align: center;
+	padding: 0.6rem 0;
+}
+.shop_explain{
+	font-size: 0.85rem;
+	line-height: 1.15rem;
+	text-indent: 1.7rem;
+}
+#deal .big-button.shop-auxiliary{
+	bottom: 2.4rem;
+}
+.sh_au-ex{
+	display:block;
+	width:100%;
+	text-align:center;
+	padding-top:0.25rem;
+}
+
